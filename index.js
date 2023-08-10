@@ -5,7 +5,6 @@ const fs = require('fs');
 const baseURL = 'https://www.hasznaltauto.hu/egyszeru/szemelyauto';
 
 async function scrapeDataForYearRange(evjarat_min, evjarat_max) {
-  console.log(evjarat_min, evjarat_max)
   try {
     const response = await axios.post(baseURL, {
       marka_id: 12,
@@ -60,7 +59,6 @@ async function scrapeAllData() {
 
   fs.writeFileSync('data.json', JSON.stringify(allListings, null, 2));
   console.log(`The list of all scraped data: ${allListings.length}`)
-  console.log('Scraping and writing done.');
 }
 
 scrapeAllData();
