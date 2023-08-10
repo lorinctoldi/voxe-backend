@@ -1,16 +1,17 @@
-// scrape.js
-
 const axios = require('axios');
 const cheerio = require('cheerio');
+// const fs = require('fs')
 
-async function scrapeDataForYearRange(evjarat_min, evjarat_max) {
+async function scrapeDataForYearRange(brandId, modellId, design, year, doorCount) {
   try {
     const response = await axios.post('https://www.hasznaltauto.hu/egyszeru/szemelyauto', {
-      marka_id: 12,
-      modell_id: 102,
+      marka_id: brandId,
+      modell_id: modellId,
       results: 600,
-      evjarat_min: evjarat_min,
-      evjarat_max: evjarat_max
+      ajtok_szama: doorCount,
+      evjarat_min: year,
+      evjarat_max: year,
+      kivitel: design
     });
 
     const $ = cheerio.load(response.data);
@@ -20,7 +21,7 @@ async function scrapeDataForYearRange(evjarat_min, evjarat_max) {
       const title = $(element).find('h3 a').text();
       const price = $(element).find('div.pricefield-primary').first().text().replace('Ft', '').replace(/\s/g, '');
       const fuel = $(element).find('span.info').eq(0).text().replace(',','').toLowerCase().replace(/\s/g, '');
-      const date = $(element).find('span.info').eq(1).text().replace(',','').replace(/\s/g, '');
+      const [dateYear, dateMonth] = $(element).find('span.info').eq(1).text().replace(',','').replace(/\s/g, '').split('/');
       const displacement = $(element).find('span.info').eq(2).text().replace('cm³,','').replace(/\s/g, '');
       const power_output = $(element).find('span.info').eq(3).text().replace('kW,','').replace(/\s/g, '');
       const horse_power = $(element).find('span.info').eq(4).text().replace('LE,','').replace(/\s/g, '');
@@ -33,7 +34,8 @@ async function scrapeDataForYearRange(evjarat_min, evjarat_max) {
         title: title,
         price: price,
         fuel: fuel,
-        date: date,
+        year: dateYear,
+        month: dateMonth,
         displacement: displacement,
         power_output: power_output,
         horse_power: horse_power,
@@ -51,14 +53,16 @@ async function scrapeDataForYearRange(evjarat_min, evjarat_max) {
   }
 }
 
-async function scrapeAllData(startYear, endYear) {
+async function scrapeAllData(brandId, modellId, design, startYear, endYear, doorCount) {
   const allListings = [];
 
   for (let year = startYear; year <= endYear; year++) {
-    const listings = await scrapeDataForYearRange(year, year + 1);
+    const listings = await scrapeDataForYearRange(brandId, modellId, design, year, doorCount);
     allListings.push(...listings);
   }
 
+  // fs.writeFileSync('dummy-data.json', JSON.stringify(allListings, null, 2))
+  console.log(allListings.length)
   return allListings;
 }
 
