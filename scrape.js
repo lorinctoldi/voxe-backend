@@ -63,7 +63,7 @@ async function scrapeAllData(brandId, modellId, design, startYear, endYear, door
 
   // fs.writeFileSync('dummy-data.json', JSON.stringify(allListings, null, 2))
   console.log(allListings.length)
-  return allListings;
+  return allListings.filter(listing => listing.price !== "");
 }
 
 module.exports = {
