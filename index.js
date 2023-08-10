@@ -12,9 +12,9 @@ app.use(timeout('300000'));
 app.post('/scrape', async (req, res) => {
   if (Object.keys(req.body).length === 0) return res.json('No data in request!');
   
-  const { brandId, modellId, design, startYear, endYear, doorCount, } = req.body;
+  const { makeId, modellId, design, startYear, endYear, doorCount, } = req.body;
   try {
-    const scrapedData = await scrape.scrapeAllData(brandId, modellId, design, startYear || 1900, endYear || 2023, doorCount);
+    const scrapedData = await scrape.scrapeAllData(makeId, modellId, design, startYear || 1900, endYear || 2023, doorCount);
     res.json(scrapedData);
   } catch (error) {
     console.error('Error during scraping:', error);
@@ -25,9 +25,9 @@ app.post('/scrape', async (req, res) => {
 app.post('/sum', async(req, res) => {
   if (Object.keys(req.body).length === 0) return res.json('No data in request!');
   
-  const { brandId, modellId, design, startYear, endYear, doorCount, } = req.body;
+  const { makeId, modellId, design, startYear, endYear, doorCount, } = req.body;
   try {
-    const scrapedData = await scrape.scrapeAllData(brandId, modellId, design, startYear || 1900, endYear || 2023, doorCount);
+    const scrapedData = await scrape.scrapeAllData(makeId, modellId, design, startYear || 1900, endYear || 2023, doorCount);
     const sumData = await sum.getSum(scrapedData)
     res.json(sumData);
   } catch (error) {

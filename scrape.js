@@ -2,10 +2,10 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 // const fs = require('fs')
 
-async function scrapeDataForYearRange(brandId, modellId, design, year, doorCount) {
+async function scrapeDataForYearRange(makeId, modellId, design, year, doorCount) {
   try {
     const response = await axios.post('https://www.hasznaltauto.hu/egyszeru/szemelyauto', {
-      marka_id: brandId,
+      marka_id: makeId,
       modell_id: modellId,
       results: 600,
       ajtok_szama: doorCount,
@@ -53,11 +53,11 @@ async function scrapeDataForYearRange(brandId, modellId, design, year, doorCount
   }
 }
 
-async function scrapeAllData(brandId, modellId, design, startYear, endYear, doorCount) {
+async function scrapeAllData(makeId, modellId, design, startYear, endYear, doorCount) {
   const allListings = [];
 
   for (let year = startYear; year <= endYear; year++) {
-    const listings = await scrapeDataForYearRange(brandId, modellId, design, year, doorCount);
+    const listings = await scrapeDataForYearRange(makeId, modellId, design, year, doorCount);
     allListings.push(...listings);
   }
 
