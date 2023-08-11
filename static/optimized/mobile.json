@@ -1,0 +1,5890 @@
+{
+  "makes": [
+    {
+      "code": "140",
+      "name": "abarth",
+      "options": [
+        {
+          "code": 2,
+          "name": "500"
+        },
+        {
+          "code": 6,
+          "name": "595"
+        },
+        {
+          "code": 8,
+          "name": "695"
+        },
+        {
+          "code": 5,
+          "name": "grande punto"
+        }
+      ]
+    },
+    {
+      "code": "203",
+      "name": "ac",
+      "options": [
+        {
+          "code": 1,
+          "name": "egyéb"
+        }
+      ]
+    },
+    {
+      "code": "375",
+      "name": "acura",
+      "options": [
+        {
+          "code": 1,
+          "name": "egyéb"
+        },
+        {
+          "code": 2,
+          "name": "mdx"
+        },
+        {
+          "code": 6,
+          "name": "tl"
+        }
+      ]
+    },
+    {
+      "code": "800",
+      "name": "aixam",
+      "options": [
+        {
+          "code": 11,
+          "name": "city"
+        },
+        {
+          "code": 5,
+          "name": "crossline"
+        }
+      ]
+    },
+    {
+      "code": "900",
+      "name": "alfa romeo",
+      "options": [
+        {
+          "code": 5,
+          "name": "145"
+        },
+        {
+          "code": 6,
+          "name": "146"
+        },
+        {
+          "code": 7,
+          "name": "147"
+        },
+        {
+          "code": 8,
+          "name": "155"
+        },
+        {
+          "code": 9,
+          "name": "156"
+        },
+        {
+          "code": 10,
+          "name": "159"
+        },
+        {
+          "code": 11,
+          "name": "164"
+        },
+        {
+          "code": 12,
+          "name": "166"
+        },
+        {
+          "code": 2,
+          "name": "33"
+        },
+        {
+          "code": 29,
+          "name": "4c"
+        },
+        {
+          "code": 3,
+          "name": "75"
+        },
+        {
+          "code": 13,
+          "name": "alfasud"
+        },
+        {
+          "code": 14,
+          "name": "alfetta"
+        },
+        {
+          "code": 15,
+          "name": "brera"
+        },
+        {
+          "code": 1,
+          "name": "egyéb"
+        },
+        {
+          "code": 16,
+          "name": "giulia"
+        },
+        {
+          "code": 17,
+          "name": "giulietta"
+        },
+        {
+          "code": 18,
+          "name": "gt"
+        },
+        {
+          "code": 19,
+          "name": "gtv"
+        },
+        {
+          "code": 28,
+          "name": "mito"
+        },
+        {
+          "code": 21,
+          "name": "spider"
+        },
+        {
+          "code": 22,
+          "name": "sprint"
+        },
+        {
+          "code": 30,
+          "name": "stelvio"
+        },
+        {
+          "code": 34,
+          "name": "tonale"
+        }
+      ]
+    },
+    {
+      "code": "1100",
+      "name": "alpina",
+      "options": [
+        {
+          "code": 2,
+          "name": "b10"
+        },
+        {
+          "code": 4,
+          "name": "b3"
+        },
+        {
+          "code": 5,
+          "name": "b5"
+        }
+      ]
+    },
+    {
+      "code": "1750",
+      "name": "asia",
+      "options": [
+        {
+          "code": 3,
+          "name": "rocsta"
+        }
+      ]
+    },
+    {
+      "code": "1700",
+      "name": "aston martin",
+      "options": [
+        {
+          "code": 17,
+          "name": "db11"
+        },
+        {
+          "code": 4,
+          "name": "db7"
+        },
+        {
+          "code": 5,
+          "name": "db9"
+        },
+        {
+          "code": 21,
+          "name": "dbx"
+        },
+        {
+          "code": 12,
+          "name": "rapide"
+        },
+        {
+          "code": 7,
+          "name": "vanquish"
+        },
+        {
+          "code": 13,
+          "name": "vantage"
+        }
+      ]
+    },
+    {
+      "code": "1900",
+      "name": "audi",
+      "options": [
+        {
+          "code": 2,
+          "name": "100"
+        },
+        {
+          "code": 3,
+          "name": "200"
+        },
+        {
+          "code": 5,
+          "name": "80"
+        },
+        {
+          "code": 6,
+          "name": "90"
+        },
+        {
+          "code": 25,
+          "name": "a1"
+        },
+        {
+          "code": 7,
+          "name": "a2"
+        },
+        {
+          "code": 8,
+          "name": "a3"
+        },
+        {
+          "code": 9,
+          "name": "a4"
+        },
+        {
+          "code": 33,
+          "name": "a4 allroad"
+        },
+        {
+          "code": 31,
+          "name": "a5"
+        },
+        {
+          "code": 10,
+          "name": "a6"
+        },
+        {
+          "code": 12,
+          "name": "a6 allroad"
+        },
+        {
+          "code": 34,
+          "name": "a7"
+        },
+        {
+          "code": 11,
+          "name": "a8"
+        },
+        {
+          "code": 13,
+          "name": "cabrio"
+        },
+        {
+          "code": 14,
+          "name": "coupe"
+        },
+        {
+          "code": 50,
+          "name": "e-tron"
+        },
+        {
+          "code": 1,
+          "name": "egyéb"
+        },
+        {
+          "code": 45,
+          "name": "q2"
+        },
+        {
+          "code": 37,
+          "name": "q3"
+        },
+        {
+          "code": 57,
+          "name": "q4"
+        },
+        {
+          "code": 32,
+          "name": "q5"
+        },
+        {
+          "code": 15,
+          "name": "q7"
+        },
+        {
+          "code": 46,
+          "name": "q8"
+        },
+        {
+          "code": 29,
+          "name": "r8"
+        },
+        {
+          "code": 41,
+          "name": "rs q3"
+        },
+        {
+          "code": 26,
+          "name": "rs2"
+        },
+        {
+          "code": 36,
+          "name": "rs3"
+        },
+        {
+          "code": 27,
+          "name": "rs4"
+        },
+        {
+          "code": 17,
+          "name": "rs5"
+        },
+        {
+          "code": 28,
+          "name": "rs6"
+        },
+        {
+          "code": 40,
+          "name": "rs7"
+        },
+        {
+          "code": 42,
+          "name": "s1"
+        },
+        {
+          "code": 18,
+          "name": "s2"
+        },
+        {
+          "code": 19,
+          "name": "s3"
+        },
+        {
+          "code": 20,
+          "name": "s4"
+        },
+        {
+          "code": 30,
+          "name": "s5"
+        },
+        {
+          "code": 21,
+          "name": "s6"
+        },
+        {
+          "code": 38,
+          "name": "s7"
+        },
+        {
+          "code": 22,
+          "name": "s8"
+        },
+        {
+          "code": 23,
+          "name": "tt"
+        },
+        {
+          "code": 35,
+          "name": "tt rs"
+        },
+        {
+          "code": 4,
+          "name": "tts"
+        },
+        {
+          "code": 24,
+          "name": "v8"
+        }
+      ]
+    },
+    {
+      "code": "3100",
+      "name": "bentley",
+      "options": [
+        {
+          "code": 2,
+          "name": "arnage"
+        },
+        {
+          "code": 16,
+          "name": "bentayga"
+        },
+        {
+          "code": 4,
+          "name": "brooklands"
+        },
+        {
+          "code": 42,
+          "name": "continental"
+        },
+        {
+          "code": 15,
+          "name": "flying spur"
+        }
+      ]
+    },
+    {
+      "code": "3500",
+      "name": "bmw",
+      "options": [
+        {
+          "code": 20,
+          "name": "1-es sorozat"
+        },
+        {
+          "code": 73,
+          "name": "114"
+        },
+        {
+          "code": 2,
+          "name": "116"
+        },
+        {
+          "code": 3,
+          "name": "118"
+        },
+        {
+          "code": 4,
+          "name": "120"
+        },
+        {
+          "code": 59,
+          "name": "123"
+        },
+        {
+          "code": 61,
+          "name": "125"
+        },
+        {
+          "code": 5,
+          "name": "130"
+        },
+        {
+          "code": 58,
+          "name": "135"
+        },
+        {
+          "code": 55,
+          "name": "2-es sorozat"
+        },
+        {
+          "code": 71,
+          "name": "2002"
+        },
+        {
+          "code": 110,
+          "name": "214"
+        },
+        {
+          "code": 106,
+          "name": "216"
+        },
+        {
+          "code": 90,
+          "name": "218"
+        },
+        {
+          "code": 84,
+          "name": "220"
+        },
+        {
+          "code": 91,
+          "name": "225"
+        },
+        {
+          "code": 104,
+          "name": "228"
+        },
+        {
+          "code": 125,
+          "name": "230"
+        },
+        {
+          "code": 21,
+          "name": "3-as sorozat"
+        },
+        {
+          "code": 8,
+          "name": "316"
+        },
+        {
+          "code": 9,
+          "name": "318"
+        },
+        {
+          "code": 75,
+          "name": "318 gran turismo"
+        },
+        {
+          "code": 10,
+          "name": "320"
+        },
+        {
+          "code": 76,
+          "name": "320 gran turismo"
+        },
+        {
+          "code": 11,
+          "name": "323"
+        },
+        {
+          "code": 12,
+          "name": "324"
+        },
+        {
+          "code": 13,
+          "name": "325"
+        },
+        {
+          "code": 88,
+          "name": "325 gran turismo"
+        },
+        {
+          "code": 14,
+          "name": "328"
+        },
+        {
+          "code": 77,
+          "name": "328 gran turismo"
+        },
+        {
+          "code": 15,
+          "name": "330"
+        },
+        {
+          "code": 103,
+          "name": "330 gran turismo"
+        },
+        {
+          "code": 56,
+          "name": "335"
+        },
+        {
+          "code": 118,
+          "name": "340"
+        },
+        {
+          "code": 130,
+          "name": "340 gran turismo"
+        },
+        {
+          "code": 53,
+          "name": "4-es sorozat"
+        },
+        {
+          "code": 115,
+          "name": "418"
+        },
+        {
+          "code": 80,
+          "name": "420"
+        },
+        {
+          "code": 102,
+          "name": "425"
+        },
+        {
+          "code": 81,
+          "name": "428"
+        },
+        {
+          "code": 83,
+          "name": "430"
+        },
+        {
+          "code": 82,
+          "name": "435"
+        },
+        {
+          "code": 120,
+          "name": "440"
+        },
+        {
+          "code": 22,
+          "name": "5-ös sorozat"
+        },
+        {
+          "code": 16,
+          "name": "518"
+        },
+        {
+          "code": 17,
+          "name": "520"
+        },
+        {
+          "code": 18,
+          "name": "523"
+        },
+        {
+          "code": 19,
+          "name": "524"
+        },
+        {
+          "code": 20,
+          "name": "525"
+        },
+        {
+          "code": 21,
+          "name": "528"
+        },
+        {
+          "code": 22,
+          "name": "530"
+        },
+        {
+          "code": 23,
+          "name": "535"
+        },
+        {
+          "code": 24,
+          "name": "540"
+        },
+        {
+          "code": 25,
+          "name": "545"
+        },
+        {
+          "code": 23,
+          "name": "6-os sorozat"
+        },
+        {
+          "code": 28,
+          "name": "630"
+        },
+        {
+          "code": 29,
+          "name": "633"
+        },
+        {
+          "code": 30,
+          "name": "635"
+        },
+        {
+          "code": 68,
+          "name": "640"
+        },
+        {
+          "code": 31,
+          "name": "645"
+        },
+        {
+          "code": 32,
+          "name": "650"
+        },
+        {
+          "code": 24,
+          "name": "7-es sorozat"
+        },
+        {
+          "code": 33,
+          "name": "725"
+        },
+        {
+          "code": 34,
+          "name": "728"
+        },
+        {
+          "code": 35,
+          "name": "730"
+        },
+        {
+          "code": 36,
+          "name": "732"
+        },
+        {
+          "code": 37,
+          "name": "735"
+        },
+        {
+          "code": 38,
+          "name": "740"
+        },
+        {
+          "code": 39,
+          "name": "745"
+        },
+        {
+          "code": 40,
+          "name": "750"
+        },
+        {
+          "code": 41,
+          "name": "760"
+        },
+        {
+          "code": 42,
+          "name": "840"
+        },
+        {
+          "code": 43,
+          "name": "850"
+        },
+        {
+          "code": 1,
+          "name": "egyéb"
+        },
+        {
+          "code": 79,
+          "name": "i3"
+        },
+        {
+          "code": 330,
+          "name": "i4"
+        },
+        {
+          "code": 336,
+          "name": "i7"
+        },
+        {
+          "code": 89,
+          "name": "i8"
+        },
+        {
+          "code": 331,
+          "name": "ix"
+        },
+        {
+          "code": 337,
+          "name": "ix1"
+        },
+        {
+          "code": 329,
+          "name": "ix3"
+        },
+        {
+          "code": 25,
+          "name": "m sorozat"
+        },
+        {
+          "code": 117,
+          "name": "m2"
+        },
+        {
+          "code": 123,
+          "name": "m240i"
+        },
+        {
+          "code": 45,
+          "name": "m3"
+        },
+        {
+          "code": 93,
+          "name": "m4"
+        },
+        {
+          "code": 46,
+          "name": "m5"
+        },
+        {
+          "code": 47,
+          "name": "m6"
+        },
+        {
+          "code": 154,
+          "name": "m8"
+        },
+        {
+          "code": 26,
+          "name": "x sorozat"
+        },
+        {
+          "code": 6,
+          "name": "x1"
+        },
+        {
+          "code": 129,
+          "name": "x2"
+        },
+        {
+          "code": 48,
+          "name": "x3"
+        },
+        {
+          "code": 92,
+          "name": "x4"
+        },
+        {
+          "code": 49,
+          "name": "x5"
+        },
+        {
+          "code": 60,
+          "name": "x6"
+        },
+        {
+          "code": 143,
+          "name": "x7"
+        },
+        {
+          "code": 338,
+          "name": "xm"
+        },
+        {
+          "code": 27,
+          "name": "z sorozat"
+        },
+        {
+          "code": 51,
+          "name": "z3"
+        },
+        {
+          "code": 52,
+          "name": "z4"
+        }
+      ]
+    },
+    {
+      "code": "4400",
+      "name": "buick",
+      "options": [
+        {
+          "code": 2,
+          "name": "century"
+        },
+        {
+          "code": 3,
+          "name": "electra"
+        },
+        {
+          "code": 11,
+          "name": "enclave"
+        },
+        {
+          "code": 10,
+          "name": "la crosse"
+        },
+        {
+          "code": 4,
+          "name": "le sabre"
+        },
+        {
+          "code": 6,
+          "name": "regal"
+        },
+        {
+          "code": 7,
+          "name": "riviera"
+        }
+      ]
+    },
+    {
+      "code": "31953",
+      "name": "byd",
+      "options": [
+        {
+          "code": 2,
+          "name": "atto 3"
+        },
+        {
+          "code": 3,
+          "name": "han"
+        },
+        {
+          "code": 4,
+          "name": "tang"
+        }
+      ]
+    },
+    {
+      "code": "4700",
+      "name": "cadillac",
+      "options": [
+        {
+          "code": 2,
+          "name": "allante"
+        },
+        {
+          "code": 13,
+          "name": "ats"
+        },
+        {
+          "code": 3,
+          "name": "bls"
+        },
+        {
+          "code": 4,
+          "name": "cts"
+        },
+        {
+          "code": 5,
+          "name": "deville"
+        },
+        {
+          "code": 1,
+          "name": "egyéb"
+        },
+        {
+          "code": 6,
+          "name": "eldorado"
+        },
+        {
+          "code": 7,
+          "name": "escalade"
+        },
+        {
+          "code": 8,
+          "name": "fleetwood"
+        },
+        {
+          "code": 9,
+          "name": "seville"
+        },
+        {
+          "code": 10,
+          "name": "srx"
+        },
+        {
+          "code": 11,
+          "name": "sts"
+        },
+        {
+          "code": 15,
+          "name": "xt5"
+        },
+        {
+          "code": 24,
+          "name": "xt6"
+        }
+      ]
+    },
+    {
+      "code": "5600",
+      "name": "chevrolet",
+      "options": [
+        {
+          "code": 4,
+          "name": "astro"
+        },
+        {
+          "code": 5,
+          "name": "avalanche"
+        },
+        {
+          "code": 45,
+          "name": "aveo"
+        },
+        {
+          "code": 8,
+          "name": "blazer"
+        },
+        {
+          "code": 10,
+          "name": "camaro"
+        },
+        {
+          "code": 11,
+          "name": "caprice"
+        },
+        {
+          "code": 47,
+          "name": "captiva"
+        },
+        {
+          "code": 43,
+          "name": "chevelle"
+        },
+        {
+          "code": 14,
+          "name": "chevy van"
+        },
+        {
+          "code": 51,
+          "name": "cruze"
+        },
+        {
+          "code": 1,
+          "name": "egyéb"
+        },
+        {
+          "code": 20,
+          "name": "el camino"
+        },
+        {
+          "code": 49,
+          "name": "epica"
+        },
+        {
+          "code": 18,
+          "name": "express"
+        },
+        {
+          "code": 50,
+          "name": "hhr"
+        },
+        {
+          "code": 23,
+          "name": "impala"
+        },
+        {
+          "code": 25,
+          "name": "k30"
+        },
+        {
+          "code": 26,
+          "name": "kalos"
+        },
+        {
+          "code": 27,
+          "name": "lacetti"
+        },
+        {
+          "code": 28,
+          "name": "lumina"
+        },
+        {
+          "code": 29,
+          "name": "malibu"
+        },
+        {
+          "code": 30,
+          "name": "matiz"
+        },
+        {
+          "code": 32,
+          "name": "nubira"
+        },
+        {
+          "code": 17,
+          "name": "orlando"
+        },
+        {
+          "code": 34,
+          "name": "s-10"
+        },
+        {
+          "code": 35,
+          "name": "silverado"
+        },
+        {
+          "code": 13,
+          "name": "spark"
+        },
+        {
+          "code": 37,
+          "name": "suburban"
+        },
+        {
+          "code": 39,
+          "name": "tahoe"
+        },
+        {
+          "code": 41,
+          "name": "trailblazer"
+        },
+        {
+          "code": 42,
+          "name": "trans sport"
+        },
+        {
+          "code": 31,
+          "name": "trax"
+        },
+        {
+          "code": 19,
+          "name": "volt"
+        }
+      ]
+    },
+    {
+      "code": "5700",
+      "name": "chrysler",
+      "options": [
+        {
+          "code": 24,
+          "name": "200"
+        },
+        {
+          "code": 2,
+          "name": "300 m"
+        },
+        {
+          "code": 4,
+          "name": "crossfire"
+        },
+        {
+          "code": 7,
+          "name": "grand voyager"
+        },
+        {
+          "code": 23,
+          "name": "imperial"
+        },
+        {
+          "code": 11,
+          "name": "neon"
+        },
+        {
+          "code": 12,
+          "name": "new yorker"
+        },
+        {
+          "code": 13,
+          "name": "pacifica"
+        },
+        {
+          "code": 14,
+          "name": "pt cruiser"
+        },
+        {
+          "code": 16,
+          "name": "sebring"
+        },
+        {
+          "code": 17,
+          "name": "stratus"
+        },
+        {
+          "code": 20,
+          "name": "vision"
+        },
+        {
+          "code": 21,
+          "name": "voyager"
+        }
+      ]
+    },
+    {
+      "code": "5900",
+      "name": "citroen",
+      "options": [
+        {
+          "code": 2,
+          "name": "2cv"
+        },
+        {
+          "code": 4,
+          "name": "ax"
+        },
+        {
+          "code": 5,
+          "name": "berlingo"
+        },
+        {
+          "code": 6,
+          "name": "bx"
+        },
+        {
+          "code": 33,
+          "name": "c-crosser"
+        },
+        {
+          "code": 38,
+          "name": "c-elysee"
+        },
+        {
+          "code": 31,
+          "name": "c-zero"
+        },
+        {
+          "code": 7,
+          "name": "c1"
+        },
+        {
+          "code": 9,
+          "name": "c2"
+        },
+        {
+          "code": 11,
+          "name": "c3"
+        },
+        {
+          "code": 41,
+          "name": "c3 aircross"
+        },
+        {
+          "code": 12,
+          "name": "c4"
+        },
+        {
+          "code": 36,
+          "name": "c4 aircross"
+        },
+        {
+          "code": 37,
+          "name": "c4 cactus"
+        },
+        {
+          "code": 32,
+          "name": "c4 picasso"
+        },
+        {
+          "code": 43,
+          "name": "c4 spacetourer"
+        },
+        {
+          "code": 13,
+          "name": "c5"
+        },
+        {
+          "code": 44,
+          "name": "c5 aircross"
+        },
+        {
+          "code": 48,
+          "name": "c5 x"
+        },
+        {
+          "code": 14,
+          "name": "c6"
+        },
+        {
+          "code": 15,
+          "name": "c8"
+        },
+        {
+          "code": 16,
+          "name": "cx"
+        },
+        {
+          "code": 17,
+          "name": "ds"
+        },
+        {
+          "code": 20,
+          "name": "ds3"
+        },
+        {
+          "code": 22,
+          "name": "ds4"
+        },
+        {
+          "code": 35,
+          "name": "ds5"
+        },
+        {
+          "code": 42,
+          "name": "e-mehari"
+        },
+        {
+          "code": 10,
+          "name": "jumper"
+        },
+        {
+          "code": 21,
+          "name": "jumpy"
+        },
+        {
+          "code": 3,
+          "name": "nemo"
+        },
+        {
+          "code": 23,
+          "name": "saxo"
+        },
+        {
+          "code": 39,
+          "name": "spacetourer"
+        },
+        {
+          "code": 26,
+          "name": "xantia"
+        },
+        {
+          "code": 27,
+          "name": "xm"
+        },
+        {
+          "code": 28,
+          "name": "xsara"
+        },
+        {
+          "code": 29,
+          "name": "xsara picasso"
+        },
+        {
+          "code": 30,
+          "name": "zx"
+        }
+      ]
+    },
+    {
+      "code": "3",
+      "name": "cupra",
+      "options": [
+        {
+          "code": 2,
+          "name": "ateca"
+        },
+        {
+          "code": 7,
+          "name": "born"
+        },
+        {
+          "code": 5,
+          "name": "formentor"
+        },
+        {
+          "code": 6,
+          "name": "leon"
+        }
+      ]
+    },
+    {
+      "code": "6600",
+      "name": "dacia",
+      "options": [
+        {
+          "code": 5,
+          "name": "dokker"
+        },
+        {
+          "code": 2,
+          "name": "duster"
+        },
+        {
+          "code": 26,
+          "name": "jogger"
+        },
+        {
+          "code": 3,
+          "name": "lodgy"
+        },
+        {
+          "code": 6,
+          "name": "logan"
+        },
+        {
+          "code": 24,
+          "name": "sandero"
+        },
+        {
+          "code": 25,
+          "name": "spring"
+        }
+      ]
+    },
+    {
+      "code": "6800",
+      "name": "daewoo",
+      "options": [
+        {
+          "code": 4,
+          "name": "evanda"
+        },
+        {
+          "code": 5,
+          "name": "kalos"
+        },
+        {
+          "code": 7,
+          "name": "lacetti"
+        },
+        {
+          "code": 8,
+          "name": "lanos"
+        },
+        {
+          "code": 9,
+          "name": "leganza"
+        },
+        {
+          "code": 10,
+          "name": "matiz"
+        },
+        {
+          "code": 12,
+          "name": "nexia"
+        },
+        {
+          "code": 13,
+          "name": "nubira"
+        },
+        {
+          "code": 15,
+          "name": "tacuma"
+        }
+      ]
+    },
+    {
+      "code": "7000",
+      "name": "daihatsu",
+      "options": [
+        {
+          "code": 2,
+          "name": "applause"
+        },
+        {
+          "code": 3,
+          "name": "charade"
+        },
+        {
+          "code": 5,
+          "name": "copen"
+        },
+        {
+          "code": 6,
+          "name": "cuore"
+        },
+        {
+          "code": 8,
+          "name": "feroza"
+        },
+        {
+          "code": 10,
+          "name": "gran move"
+        },
+        {
+          "code": 19,
+          "name": "materia"
+        },
+        {
+          "code": 14,
+          "name": "sirion"
+        },
+        {
+          "code": 16,
+          "name": "terios"
+        },
+        {
+          "code": 20,
+          "name": "trevis"
+        },
+        {
+          "code": 18,
+          "name": "yrv"
+        }
+      ]
+    },
+    {
+      "code": "31864",
+      "name": "dfsk",
+      "options": [
+        {
+          "code": 2,
+          "name": "fengon"
+        }
+      ]
+    },
+    {
+      "code": "7700",
+      "name": "dodge",
+      "options": [
+        {
+          "code": 18,
+          "name": "avenger"
+        },
+        {
+          "code": 14,
+          "name": "caliber"
+        },
+        {
+          "code": 8,
+          "name": "challenger"
+        },
+        {
+          "code": 2,
+          "name": "charger"
+        },
+        {
+          "code": 21,
+          "name": "dart"
+        },
+        {
+          "code": 4,
+          "name": "durango"
+        },
+        {
+          "code": 1,
+          "name": "egyéb"
+        },
+        {
+          "code": 5,
+          "name": "grand caravan"
+        },
+        {
+          "code": 15,
+          "name": "hornet"
+        },
+        {
+          "code": 19,
+          "name": "journey"
+        },
+        {
+          "code": 7,
+          "name": "neon"
+        },
+        {
+          "code": 16,
+          "name": "nitro"
+        },
+        {
+          "code": 13,
+          "name": "ram"
+        },
+        {
+          "code": 12,
+          "name": "viper"
+        }
+      ]
+    },
+    {
+      "code": "235",
+      "name": "ds",
+      "options": [
+        {
+          "code": 2,
+          "name": "ds 3"
+        },
+        {
+          "code": 7,
+          "name": "ds 3 crossback"
+        },
+        {
+          "code": 3,
+          "name": "ds 4"
+        },
+        {
+          "code": 4,
+          "name": "ds 5"
+        },
+        {
+          "code": 6,
+          "name": "ds 7 crossback"
+        }
+      ]
+    },
+    {
+      "code": "1400",
+      "name": "egyéb",
+      "options": [
+        {
+          "code": 1,
+          "name": "egyéb"
+        }
+      ]
+    },
+    {
+      "code": "8600",
+      "name": "ferrari",
+      "options": [
+        {
+          "code": 14,
+          "name": "360"
+        },
+        {
+          "code": 16,
+          "name": "400"
+        },
+        {
+          "code": 2,
+          "name": "458"
+        },
+        {
+          "code": 28,
+          "name": "488"
+        },
+        {
+          "code": 33,
+          "name": "550"
+        },
+        {
+          "code": 37,
+          "name": "599"
+        },
+        {
+          "code": 38,
+          "name": "california"
+        },
+        {
+          "code": 1,
+          "name": "egyéb"
+        },
+        {
+          "code": 13,
+          "name": "f12"
+        },
+        {
+          "code": 30,
+          "name": "f430"
+        },
+        {
+          "code": 48,
+          "name": "f8"
+        },
+        {
+          "code": 3,
+          "name": "ff"
+        },
+        {
+          "code": 41,
+          "name": "gtc4lusso"
+        },
+        {
+          "code": 34,
+          "name": "mondial"
+        },
+        {
+          "code": 44,
+          "name": "portofino"
+        },
+        {
+          "code": 50,
+          "name": "roma"
+        },
+        {
+          "code": 36,
+          "name": "testarossa"
+        }
+      ]
+    },
+    {
+      "code": "8800",
+      "name": "fiat",
+      "options": [
+        {
+          "code": 2,
+          "name": "124"
+        },
+        {
+          "code": 5,
+          "name": "127"
+        },
+        {
+          "code": 6,
+          "name": "130"
+        },
+        {
+          "code": 9,
+          "name": "500"
+        },
+        {
+          "code": 48,
+          "name": "500l"
+        },
+        {
+          "code": 53,
+          "name": "500x"
+        },
+        {
+          "code": 25,
+          "name": "albea"
+        },
+        {
+          "code": 10,
+          "name": "barchetta"
+        },
+        {
+          "code": 11,
+          "name": "brava"
+        },
+        {
+          "code": 12,
+          "name": "bravo"
+        },
+        {
+          "code": 14,
+          "name": "cinquecento"
+        },
+        {
+          "code": 15,
+          "name": "coupe"
+        },
+        {
+          "code": 16,
+          "name": "croma"
+        },
+        {
+          "code": 18,
+          "name": "doblo"
+        },
+        {
+          "code": 19,
+          "name": "ducato"
+        },
+        {
+          "code": 1,
+          "name": "egyéb"
+        },
+        {
+          "code": 21,
+          "name": "fiorino"
+        },
+        {
+          "code": 47,
+          "name": "freemont"
+        },
+        {
+          "code": 55,
+          "name": "fullback"
+        },
+        {
+          "code": 44,
+          "name": "grande punto"
+        },
+        {
+          "code": 22,
+          "name": "idea"
+        },
+        {
+          "code": 46,
+          "name": "linea"
+        },
+        {
+          "code": 23,
+          "name": "marea"
+        },
+        {
+          "code": 26,
+          "name": "multipla"
+        },
+        {
+          "code": 27,
+          "name": "palio"
+        },
+        {
+          "code": 28,
+          "name": "panda"
+        },
+        {
+          "code": 30,
+          "name": "punto"
+        },
+        {
+          "code": 13,
+          "name": "qubo"
+        },
+        {
+          "code": 32,
+          "name": "ritmo"
+        },
+        {
+          "code": 33,
+          "name": "scudo"
+        },
+        {
+          "code": 45,
+          "name": "sedici"
+        },
+        {
+          "code": 34,
+          "name": "seicento"
+        },
+        {
+          "code": 29,
+          "name": "siena"
+        },
+        {
+          "code": 36,
+          "name": "stilo"
+        },
+        {
+          "code": 37,
+          "name": "strada"
+        },
+        {
+          "code": 56,
+          "name": "talento"
+        },
+        {
+          "code": 39,
+          "name": "tempra"
+        },
+        {
+          "code": 40,
+          "name": "tipo"
+        },
+        {
+          "code": 41,
+          "name": "ulysse"
+        },
+        {
+          "code": 42,
+          "name": "uno"
+        }
+      ]
+    },
+    {
+      "code": "172",
+      "name": "fisker",
+      "options": [
+        {
+          "code": 2,
+          "name": "karma"
+        }
+      ]
+    },
+    {
+      "code": "9000",
+      "name": "ford",
+      "options": [
+        {
+          "code": 54,
+          "name": "b-max"
+        },
+        {
+          "code": 3,
+          "name": "bronco"
+        },
+        {
+          "code": 52,
+          "name": "c-max"
+        },
+        {
+          "code": 4,
+          "name": "capri"
+        },
+        {
+          "code": 5,
+          "name": "cougar"
+        },
+        {
+          "code": 6,
+          "name": "courier"
+        },
+        {
+          "code": 56,
+          "name": "ecosport"
+        },
+        {
+          "code": 48,
+          "name": "edge"
+        },
+        {
+          "code": 1,
+          "name": "egyéb"
+        },
+        {
+          "code": 10,
+          "name": "escape"
+        },
+        {
+          "code": 12,
+          "name": "excursion"
+        },
+        {
+          "code": 13,
+          "name": "expedition"
+        },
+        {
+          "code": 14,
+          "name": "explorer"
+        },
+        {
+          "code": 63,
+          "name": "f 100"
+        },
+        {
+          "code": 16,
+          "name": "f 150"
+        },
+        {
+          "code": 17,
+          "name": "f 250"
+        },
+        {
+          "code": 18,
+          "name": "f 350"
+        },
+        {
+          "code": 19,
+          "name": "fiesta"
+        },
+        {
+          "code": 53,
+          "name": "flex"
+        },
+        {
+          "code": 20,
+          "name": "focus"
+        },
+        {
+          "code": 22,
+          "name": "fusion"
+        },
+        {
+          "code": 23,
+          "name": "galaxy"
+        },
+        {
+          "code": 24,
+          "name": "granada"
+        },
+        {
+          "code": 25,
+          "name": "ka"
+        },
+        {
+          "code": 49,
+          "name": "kuga"
+        },
+        {
+          "code": 27,
+          "name": "maverick"
+        },
+        {
+          "code": 29,
+          "name": "mondeo"
+        },
+        {
+          "code": 30,
+          "name": "mustang"
+        },
+        {
+          "code": 31,
+          "name": "orion"
+        },
+        {
+          "code": 32,
+          "name": "probe"
+        },
+        {
+          "code": 33,
+          "name": "puma"
+        },
+        {
+          "code": 34,
+          "name": "ranger"
+        },
+        {
+          "code": 47,
+          "name": "s-max"
+        },
+        {
+          "code": 35,
+          "name": "scorpio"
+        },
+        {
+          "code": 36,
+          "name": "sierra"
+        },
+        {
+          "code": 37,
+          "name": "streetka"
+        },
+        {
+          "code": 38,
+          "name": "taunus"
+        },
+        {
+          "code": 39,
+          "name": "taurus"
+        },
+        {
+          "code": 40,
+          "name": "thunderbird"
+        },
+        {
+          "code": 61,
+          "name": "tourneo"
+        },
+        {
+          "code": 39,
+          "name": "transit"
+        },
+        {
+          "code": 43,
+          "name": "windstar"
+        }
+      ]
+    },
+    {
+      "code": "270",
+      "name": "genesis",
+      "options": [
+        {
+          "code": 4,
+          "name": "g70"
+        },
+        {
+          "code": 2,
+          "name": "g80"
+        },
+        {
+          "code": 8,
+          "name": "gv60"
+        },
+        {
+          "code": 6,
+          "name": "gv70"
+        }
+      ]
+    },
+    {
+      "code": "9900",
+      "name": "gmc",
+      "options": [
+        {
+          "code": 1,
+          "name": "egyéb"
+        },
+        {
+          "code": 5,
+          "name": "sierra"
+        },
+        {
+          "code": 6,
+          "name": "sonoma"
+        },
+        {
+          "code": 12,
+          "name": "terrain"
+        },
+        {
+          "code": 10,
+          "name": "yukon"
+        }
+      ]
+    },
+    {
+      "code": "11000",
+      "name": "honda",
+      "options": [
+        {
+          "code": 2,
+          "name": "accord"
+        },
+        {
+          "code": 22,
+          "name": "city"
+        },
+        {
+          "code": 3,
+          "name": "civic"
+        },
+        {
+          "code": 5,
+          "name": "cr-v"
+        },
+        {
+          "code": 24,
+          "name": "cr-z"
+        },
+        {
+          "code": 8,
+          "name": "fr-v"
+        },
+        {
+          "code": 9,
+          "name": "hr-v"
+        },
+        {
+          "code": 10,
+          "name": "insight"
+        },
+        {
+          "code": 12,
+          "name": "jazz"
+        },
+        {
+          "code": 13,
+          "name": "legend"
+        },
+        {
+          "code": 14,
+          "name": "logo"
+        },
+        {
+          "code": 16,
+          "name": "odyssey"
+        },
+        {
+          "code": 17,
+          "name": "prelude"
+        },
+        {
+          "code": 19,
+          "name": "shuttle"
+        },
+        {
+          "code": 20,
+          "name": "stream"
+        }
+      ]
+    },
+    {
+      "code": "11050",
+      "name": "hummer",
+      "options": [
+        {
+          "code": 3,
+          "name": "h1"
+        },
+        {
+          "code": 4,
+          "name": "h2"
+        },
+        {
+          "code": 5,
+          "name": "h3"
+        }
+      ]
+    },
+    {
+      "code": "11600",
+      "name": "hyundai",
+      "options": [
+        {
+          "code": 2,
+          "name": "accent"
+        },
+        {
+          "code": 3,
+          "name": "atos"
+        },
+        {
+          "code": 56,
+          "name": "bayon"
+        },
+        {
+          "code": 4,
+          "name": "coupe"
+        },
+        {
+          "code": 5,
+          "name": "elantra"
+        },
+        {
+          "code": 7,
+          "name": "galloper"
+        },
+        {
+          "code": 15,
+          "name": "genesis"
+        },
+        {
+          "code": 8,
+          "name": "getz"
+        },
+        {
+          "code": 9,
+          "name": "grandeur"
+        },
+        {
+          "code": 13,
+          "name": "h-1"
+        },
+        {
+          "code": 14,
+          "name": "h-1 starex"
+        },
+        {
+          "code": 31,
+          "name": "i10"
+        },
+        {
+          "code": 32,
+          "name": "i20"
+        },
+        {
+          "code": 30,
+          "name": "i30"
+        },
+        {
+          "code": 33,
+          "name": "i40"
+        },
+        {
+          "code": 40,
+          "name": "ioniq"
+        },
+        {
+          "code": 58,
+          "name": "ioniq 5"
+        },
+        {
+          "code": 60,
+          "name": "ioniq 6"
+        },
+        {
+          "code": 41,
+          "name": "kona"
+        },
+        {
+          "code": 16,
+          "name": "lantra"
+        },
+        {
+          "code": 17,
+          "name": "matrix"
+        },
+        {
+          "code": 18,
+          "name": "pony"
+        },
+        {
+          "code": 19,
+          "name": "santa fe"
+        },
+        {
+          "code": 23,
+          "name": "sonata"
+        },
+        {
+          "code": 59,
+          "name": "staria"
+        },
+        {
+          "code": 25,
+          "name": "terracan"
+        },
+        {
+          "code": 26,
+          "name": "trajet"
+        },
+        {
+          "code": 27,
+          "name": "tucson"
+        },
+        {
+          "code": 37,
+          "name": "veloster"
+        }
+      ]
+    },
+    {
+      "code": "11650",
+      "name": "infiniti",
+      "options": [
+        {
+          "code": 5,
+          "name": "ex37"
+        },
+        {
+          "code": 2,
+          "name": "fx"
+        },
+        {
+          "code": 3,
+          "name": "g35"
+        },
+        {
+          "code": 4,
+          "name": "g37"
+        },
+        {
+          "code": 9,
+          "name": "m30"
+        },
+        {
+          "code": 11,
+          "name": "m35"
+        },
+        {
+          "code": 18,
+          "name": "q30"
+        },
+        {
+          "code": 13,
+          "name": "q50"
+        },
+        {
+          "code": 14,
+          "name": "q60"
+        },
+        {
+          "code": 15,
+          "name": "q70"
+        },
+        {
+          "code": 19,
+          "name": "qx30"
+        },
+        {
+          "code": 16,
+          "name": "qx50"
+        },
+        {
+          "code": 7,
+          "name": "qx56"
+        },
+        {
+          "code": 34,
+          "name": "qx60"
+        },
+        {
+          "code": 17,
+          "name": "qx70"
+        },
+        {
+          "code": 35,
+          "name": "qx80"
+        }
+      ]
+    },
+    {
+      "code": "11900",
+      "name": "isuzu",
+      "options": [
+        {
+          "code": 10,
+          "name": "d-max"
+        },
+        {
+          "code": 9,
+          "name": "trooper"
+        }
+      ]
+    },
+    {
+      "code": "12100",
+      "name": "iveco",
+      "options": [
+        {
+          "code": 2,
+          "name": "massif"
+        }
+      ]
+    },
+    {
+      "code": "12400",
+      "name": "jaguar",
+      "options": [
+        {
+          "code": 2,
+          "name": "daimler"
+        },
+        {
+          "code": 8,
+          "name": "e-pace"
+        },
+        {
+          "code": 1,
+          "name": "egyéb"
+        },
+        {
+          "code": 6,
+          "name": "f-pace"
+        },
+        {
+          "code": 3,
+          "name": "f-type"
+        },
+        {
+          "code": 18,
+          "name": "i-pace"
+        },
+        {
+          "code": 7,
+          "name": "s-type"
+        },
+        {
+          "code": 19,
+          "name": "x-type"
+        },
+        {
+          "code": 4,
+          "name": "xe"
+        },
+        {
+          "code": 24,
+          "name": "xf"
+        },
+        {
+          "code": 9,
+          "name": "xj"
+        },
+        {
+          "code": 15,
+          "name": "xjs"
+        },
+        {
+          "code": 23,
+          "name": "xk"
+        }
+      ]
+    },
+    {
+      "code": "12600",
+      "name": "jeep",
+      "options": [
+        {
+          "code": 18,
+          "name": "avenger"
+        },
+        {
+          "code": 2,
+          "name": "cherokee"
+        },
+        {
+          "code": 4,
+          "name": "cj"
+        },
+        {
+          "code": 12,
+          "name": "commander"
+        },
+        {
+          "code": 13,
+          "name": "compass"
+        },
+        {
+          "code": 1,
+          "name": "egyéb"
+        },
+        {
+          "code": 16,
+          "name": "gladiator"
+        },
+        {
+          "code": 7,
+          "name": "grand cherokee"
+        },
+        {
+          "code": 14,
+          "name": "patriot"
+        },
+        {
+          "code": 8,
+          "name": "renegade"
+        },
+        {
+          "code": 9,
+          "name": "wagoneer"
+        },
+        {
+          "code": 10,
+          "name": "willys"
+        },
+        {
+          "code": 11,
+          "name": "wrangler"
+        }
+      ]
+    },
+    {
+      "code": "13200",
+      "name": "kia",
+      "options": [
+        {
+          "code": 3,
+          "name": "carens"
+        },
+        {
+          "code": 4,
+          "name": "carnival"
+        },
+        {
+          "code": 26,
+          "name": "cee'd"
+        },
+        {
+          "code": 5,
+          "name": "cerato"
+        },
+        {
+          "code": 52,
+          "name": "ev6"
+        },
+        {
+          "code": 12,
+          "name": "magentis"
+        },
+        {
+          "code": 34,
+          "name": "niro"
+        },
+        {
+          "code": 14,
+          "name": "opirus"
+        },
+        {
+          "code": 33,
+          "name": "optima"
+        },
+        {
+          "code": 15,
+          "name": "picanto"
+        },
+        {
+          "code": 17,
+          "name": "pride"
+        },
+        {
+          "code": 27,
+          "name": "pro cee'd"
+        },
+        {
+          "code": 18,
+          "name": "retona"
+        },
+        {
+          "code": 19,
+          "name": "rio"
+        },
+        {
+          "code": 23,
+          "name": "shuma"
+        },
+        {
+          "code": 24,
+          "name": "sorento"
+        },
+        {
+          "code": 29,
+          "name": "soul"
+        },
+        {
+          "code": 25,
+          "name": "sportage"
+        },
+        {
+          "code": 35,
+          "name": "stinger"
+        },
+        {
+          "code": 36,
+          "name": "stonic"
+        },
+        {
+          "code": 32,
+          "name": "venga"
+        },
+        {
+          "code": 49,
+          "name": "xceed"
+        }
+      ]
+    },
+    {
+      "code": "13900",
+      "name": "ktm",
+      "options": [
+        {
+          "code": 2,
+          "name": "x-bow"
+        }
+      ]
+    },
+    {
+      "code": "14400",
+      "name": "lada",
+      "options": [
+        {
+          "code": 2,
+          "name": "110"
+        },
+        {
+          "code": 4,
+          "name": "112"
+        },
+        {
+          "code": 5,
+          "name": "1200"
+        },
+        {
+          "code": 6,
+          "name": "2107"
+        },
+        {
+          "code": 7,
+          "name": "2110"
+        },
+        {
+          "code": 9,
+          "name": "2112"
+        },
+        {
+          "code": 17,
+          "name": "granta"
+        },
+        {
+          "code": 15,
+          "name": "kalina"
+        },
+        {
+          "code": 12,
+          "name": "niva"
+        },
+        {
+          "code": 13,
+          "name": "nova"
+        },
+        {
+          "code": 16,
+          "name": "priora"
+        },
+        {
+          "code": 14,
+          "name": "samara"
+        },
+        {
+          "code": 18,
+          "name": "vesta"
+        }
+      ]
+    },
+    {
+      "code": "14600",
+      "name": "lamborghini",
+      "options": [
+        {
+          "code": 11,
+          "name": "aventador"
+        },
+        {
+          "code": 5,
+          "name": "gallardo"
+        },
+        {
+          "code": 12,
+          "name": "huracán"
+        },
+        {
+          "code": 13,
+          "name": "urus"
+        }
+      ]
+    },
+    {
+      "code": "14700",
+      "name": "lancia",
+      "options": [
+        {
+          "code": 3,
+          "name": "dedra"
+        },
+        {
+          "code": 4,
+          "name": "delta"
+        },
+        {
+          "code": 9,
+          "name": "kappa"
+        },
+        {
+          "code": 10,
+          "name": "lybra"
+        },
+        {
+          "code": 11,
+          "name": "musa"
+        },
+        {
+          "code": 12,
+          "name": "phedra"
+        },
+        {
+          "code": 13,
+          "name": "prisma"
+        },
+        {
+          "code": 15,
+          "name": "thema"
+        },
+        {
+          "code": 16,
+          "name": "thesis"
+        },
+        {
+          "code": 8,
+          "name": "voyager"
+        },
+        {
+          "code": 18,
+          "name": "ypsilon"
+        }
+      ]
+    },
+    {
+      "code": "14800",
+      "name": "land rover",
+      "options": [
+        {
+          "code": 2,
+          "name": "defender"
+        },
+        {
+          "code": 3,
+          "name": "discovery"
+        },
+        {
+          "code": 11,
+          "name": "discovery sport"
+        },
+        {
+          "code": 4,
+          "name": "freelander"
+        },
+        {
+          "code": 5,
+          "name": "range rover"
+        },
+        {
+          "code": 10,
+          "name": "range rover evoque"
+        },
+        {
+          "code": 6,
+          "name": "range rover sport"
+        },
+        {
+          "code": 12,
+          "name": "range rover velar"
+        }
+      ]
+    },
+    {
+      "code": "15200",
+      "name": "lexus",
+      "options": [
+        {
+          "code": 36,
+          "name": "es"
+        },
+        {
+          "code": 32,
+          "name": "gs"
+        },
+        {
+          "code": 28,
+          "name": "is"
+        },
+        {
+          "code": 41,
+          "name": "lc"
+        },
+        {
+          "code": 33,
+          "name": "ls"
+        },
+        {
+          "code": 34,
+          "name": "lx"
+        },
+        {
+          "code": 56,
+          "name": "nx"
+        },
+        {
+          "code": 63,
+          "name": "rc"
+        },
+        {
+          "code": 35,
+          "name": "rx"
+        },
+        {
+          "code": 13,
+          "name": "sc"
+        },
+        {
+          "code": 49,
+          "name": "ux"
+        }
+      ]
+    },
+    {
+      "code": "15400",
+      "name": "ligier",
+      "options": [
+        {
+          "code": 3,
+          "name": "ambra"
+        },
+        {
+          "code": 14,
+          "name": "be"
+        }
+      ]
+    },
+    {
+      "code": "15500",
+      "name": "lincoln",
+      "options": [
+        {
+          "code": 3,
+          "name": "continental"
+        },
+        {
+          "code": 6,
+          "name": "navigator"
+        },
+        {
+          "code": 7,
+          "name": "town car"
+        }
+      ]
+    },
+    {
+      "code": "15900",
+      "name": "lotus",
+      "options": [
+        {
+          "code": 1,
+          "name": "egyéb"
+        },
+        {
+          "code": 4,
+          "name": "elan"
+        },
+        {
+          "code": 5,
+          "name": "elise"
+        },
+        {
+          "code": 14,
+          "name": "emira"
+        },
+        {
+          "code": 11,
+          "name": "evora"
+        },
+        {
+          "code": 10,
+          "name": "exige"
+        }
+      ]
+    },
+    {
+      "code": "16600",
+      "name": "maserati",
+      "options": [
+        {
+          "code": 12,
+          "name": "biturbo"
+        },
+        {
+          "code": 14,
+          "name": "ghibli"
+        },
+        {
+          "code": 13,
+          "name": "grancabrio"
+        },
+        {
+          "code": 24,
+          "name": "granturismo"
+        },
+        {
+          "code": 35,
+          "name": "grecale"
+        },
+        {
+          "code": 21,
+          "name": "levante"
+        },
+        {
+          "code": 34,
+          "name": "mc20"
+        },
+        {
+          "code": 20,
+          "name": "quattroporte"
+        }
+      ]
+    },
+    {
+      "code": "16700",
+      "name": "maybach",
+      "options": [
+        {
+          "code": 2,
+          "name": "57"
+        },
+        {
+          "code": 3,
+          "name": "62"
+        }
+      ]
+    },
+    {
+      "code": "16800",
+      "name": "mazda",
+      "options": [
+        {
+          "code": 2,
+          "name": "121"
+        },
+        {
+          "code": 3,
+          "name": "2"
+        },
+        {
+          "code": 4,
+          "name": "3"
+        },
+        {
+          "code": 5,
+          "name": "323"
+        },
+        {
+          "code": 6,
+          "name": "5"
+        },
+        {
+          "code": 7,
+          "name": "6"
+        },
+        {
+          "code": 8,
+          "name": "626"
+        },
+        {
+          "code": 10,
+          "name": "b-sorozat"
+        },
+        {
+          "code": 28,
+          "name": "bt-50"
+        },
+        {
+          "code": 34,
+          "name": "cx-3"
+        },
+        {
+          "code": 42,
+          "name": "cx-30"
+        },
+        {
+          "code": 33,
+          "name": "cx-5"
+        },
+        {
+          "code": 63,
+          "name": "cx-60"
+        },
+        {
+          "code": 26,
+          "name": "cx-7"
+        },
+        {
+          "code": 27,
+          "name": "cx-9"
+        },
+        {
+          "code": 11,
+          "name": "demio"
+        },
+        {
+          "code": 13,
+          "name": "mpv"
+        },
+        {
+          "code": 14,
+          "name": "mx-3"
+        },
+        {
+          "code": 60,
+          "name": "mx-30"
+        },
+        {
+          "code": 15,
+          "name": "mx-5"
+        },
+        {
+          "code": 17,
+          "name": "premacy"
+        },
+        {
+          "code": 19,
+          "name": "rx-7"
+        },
+        {
+          "code": 20,
+          "name": "rx-8"
+        },
+        {
+          "code": 21,
+          "name": "tribute"
+        }
+      ]
+    },
+    {
+      "code": "137",
+      "name": "mclaren",
+      "options": [
+        {
+          "code": 20,
+          "name": "765lt"
+        },
+        {
+          "code": 13,
+          "name": "gt"
+        },
+        {
+          "code": 2,
+          "name": "mp4-12c"
+        }
+      ]
+    },
+    {
+      "code": "17200",
+      "name": "mercedes-benz",
+      "options": [
+        {
+          "code": 126,
+          "name": "190"
+        },
+        {
+          "code": 127,
+          "name": "200"
+        },
+        {
+          "code": 128,
+          "name": "220"
+        },
+        {
+          "code": 129,
+          "name": "230"
+        },
+        {
+          "code": 130,
+          "name": "240"
+        },
+        {
+          "code": 131,
+          "name": "250"
+        },
+        {
+          "code": 132,
+          "name": "260"
+        },
+        {
+          "code": 134,
+          "name": "280"
+        },
+        {
+          "code": 136,
+          "name": "300"
+        },
+        {
+          "code": 140,
+          "name": "400"
+        },
+        {
+          "code": 144,
+          "name": "500"
+        },
+        {
+          "code": 2,
+          "name": "a 140"
+        },
+        {
+          "code": 3,
+          "name": "a 150"
+        },
+        {
+          "code": 4,
+          "name": "a 160"
+        },
+        {
+          "code": 5,
+          "name": "a 170"
+        },
+        {
+          "code": 6,
+          "name": "a 180"
+        },
+        {
+          "code": 7,
+          "name": "a 190"
+        },
+        {
+          "code": 8,
+          "name": "a 200"
+        },
+        {
+          "code": 221,
+          "name": "a 220"
+        },
+        {
+          "code": 220,
+          "name": "a 250"
+        },
+        {
+          "code": 298,
+          "name": "a 35 amg"
+        },
+        {
+          "code": 4,
+          "name": "a-osztály"
+        },
+        {
+          "code": 12,
+          "name": "b 150"
+        },
+        {
+          "code": 11,
+          "name": "b 160"
+        },
+        {
+          "code": 13,
+          "name": "b 170"
+        },
+        {
+          "code": 14,
+          "name": "b 180"
+        },
+        {
+          "code": 15,
+          "name": "b 200"
+        },
+        {
+          "code": 222,
+          "name": "b 220"
+        },
+        {
+          "code": 223,
+          "name": "b 250"
+        },
+        {
+          "code": 5,
+          "name": "b-osztály"
+        },
+        {
+          "code": 16,
+          "name": "c 160"
+        },
+        {
+          "code": 17,
+          "name": "c 180"
+        },
+        {
+          "code": 18,
+          "name": "c 200"
+        },
+        {
+          "code": 19,
+          "name": "c 220"
+        },
+        {
+          "code": 20,
+          "name": "c 230"
+        },
+        {
+          "code": 21,
+          "name": "c 240"
+        },
+        {
+          "code": 22,
+          "name": "c 250"
+        },
+        {
+          "code": 23,
+          "name": "c 270"
+        },
+        {
+          "code": 24,
+          "name": "c 280"
+        },
+        {
+          "code": 25,
+          "name": "c 30 amg"
+        },
+        {
+          "code": 44,
+          "name": "c 300"
+        },
+        {
+          "code": 27,
+          "name": "c 320"
+        },
+        {
+          "code": 28,
+          "name": "c 350"
+        },
+        {
+          "code": 245,
+          "name": "c 400"
+        },
+        {
+          "code": 30,
+          "name": "c 43 amg"
+        },
+        {
+          "code": 198,
+          "name": "c 63 amg"
+        },
+        {
+          "code": 6,
+          "name": "c-osztály"
+        },
+        {
+          "code": 32,
+          "name": "ce 200"
+        },
+        {
+          "code": 7,
+          "name": "ce-osztály"
+        },
+        {
+          "code": 224,
+          "name": "citan"
+        },
+        {
+          "code": 40,
+          "name": "cl 500"
+        },
+        {
+          "code": 41,
+          "name": "cl 55 amg"
+        },
+        {
+          "code": 42,
+          "name": "cl 600"
+        },
+        {
+          "code": 197,
+          "name": "cl 63 amg"
+        },
+        {
+          "code": 8,
+          "name": "cl-osztály"
+        },
+        {
+          "code": 225,
+          "name": "cla 180"
+        },
+        {
+          "code": 227,
+          "name": "cla 220"
+        },
+        {
+          "code": 228,
+          "name": "cla 250"
+        },
+        {
+          "code": 230,
+          "name": "cla 45 amg"
+        },
+        {
+          "code": 45,
+          "name": "cla-osztály"
+        },
+        {
+          "code": 200,
+          "name": "clc 180"
+        },
+        {
+          "code": 202,
+          "name": "clc 220"
+        },
+        {
+          "code": 203,
+          "name": "clc 230"
+        },
+        {
+          "code": 30,
+          "name": "clc-osztály"
+        },
+        {
+          "code": 168,
+          "name": "clk 200"
+        },
+        {
+          "code": 169,
+          "name": "clk 220"
+        },
+        {
+          "code": 186,
+          "name": "clk 230"
+        },
+        {
+          "code": 187,
+          "name": "clk 240"
+        },
+        {
+          "code": 188,
+          "name": "clk 270"
+        },
+        {
+          "code": 170,
+          "name": "clk 280"
+        },
+        {
+          "code": 171,
+          "name": "clk 320"
+        },
+        {
+          "code": 172,
+          "name": "clk 350"
+        },
+        {
+          "code": 173,
+          "name": "clk 430"
+        },
+        {
+          "code": 174,
+          "name": "clk 500"
+        },
+        {
+          "code": 45,
+          "name": "clk 55 amg"
+        },
+        {
+          "code": 9,
+          "name": "clk-osztály"
+        },
+        {
+          "code": 212,
+          "name": "cls 250"
+        },
+        {
+          "code": 147,
+          "name": "cls 320"
+        },
+        {
+          "code": 148,
+          "name": "cls 350"
+        },
+        {
+          "code": 239,
+          "name": "cls 400"
+        },
+        {
+          "code": 289,
+          "name": "cls 450"
+        },
+        {
+          "code": 149,
+          "name": "cls 500"
+        },
+        {
+          "code": 150,
+          "name": "cls 55 amg"
+        },
+        {
+          "code": 176,
+          "name": "cls 63 amg"
+        },
+        {
+          "code": 10,
+          "name": "cls-osztály"
+        },
+        {
+          "code": 47,
+          "name": "e 200"
+        },
+        {
+          "code": 48,
+          "name": "e 220"
+        },
+        {
+          "code": 49,
+          "name": "e 230"
+        },
+        {
+          "code": 50,
+          "name": "e 240"
+        },
+        {
+          "code": 51,
+          "name": "e 250"
+        },
+        {
+          "code": 53,
+          "name": "e 270"
+        },
+        {
+          "code": 54,
+          "name": "e 280"
+        },
+        {
+          "code": 55,
+          "name": "e 290"
+        },
+        {
+          "code": 56,
+          "name": "e 300"
+        },
+        {
+          "code": 57,
+          "name": "e 320"
+        },
+        {
+          "code": 58,
+          "name": "e 350"
+        },
+        {
+          "code": 60,
+          "name": "e 400"
+        },
+        {
+          "code": 61,
+          "name": "e 420"
+        },
+        {
+          "code": 321,
+          "name": "e 450"
+        },
+        {
+          "code": 64,
+          "name": "e 500"
+        },
+        {
+          "code": 66,
+          "name": "e 60 amg"
+        },
+        {
+          "code": 179,
+          "name": "e 63 amg"
+        },
+        {
+          "code": 11,
+          "name": "e-osztály"
+        },
+        {
+          "code": 346,
+          "name": "eqa"
+        },
+        {
+          "code": 350,
+          "name": "eqb"
+        },
+        {
+          "code": 322,
+          "name": "eqc"
+        },
+        {
+          "code": 352,
+          "name": "eqe"
+        },
+        {
+          "code": 351,
+          "name": "eqs"
+        },
+        {
+          "code": 344,
+          "name": "eqv"
+        },
+        {
+          "code": 151,
+          "name": "g 240"
+        },
+        {
+          "code": 154,
+          "name": "g 270"
+        },
+        {
+          "code": 157,
+          "name": "g 300"
+        },
+        {
+          "code": 158,
+          "name": "g 320"
+        },
+        {
+          "code": 160,
+          "name": "g 350"
+        },
+        {
+          "code": 159,
+          "name": "g 400"
+        },
+        {
+          "code": 161,
+          "name": "g 500"
+        },
+        {
+          "code": 68,
+          "name": "g 55 amg"
+        },
+        {
+          "code": 218,
+          "name": "g 63 amg"
+        },
+        {
+          "code": 12,
+          "name": "g-osztály"
+        },
+        {
+          "code": 180,
+          "name": "gl 320"
+        },
+        {
+          "code": 166,
+          "name": "gl 350"
+        },
+        {
+          "code": 181,
+          "name": "gl 420"
+        },
+        {
+          "code": 182,
+          "name": "gl 450"
+        },
+        {
+          "code": 183,
+          "name": "gl 500"
+        },
+        {
+          "code": 195,
+          "name": "gl 63 amg"
+        },
+        {
+          "code": 13,
+          "name": "gl-osztály"
+        },
+        {
+          "code": 238,
+          "name": "gla 180"
+        },
+        {
+          "code": 231,
+          "name": "gla 200"
+        },
+        {
+          "code": 232,
+          "name": "gla 220"
+        },
+        {
+          "code": 233,
+          "name": "gla 250"
+        },
+        {
+          "code": 54,
+          "name": "gla-osztály"
+        },
+        {
+          "code": 335,
+          "name": "glb 180"
+        },
+        {
+          "code": 328,
+          "name": "glb 200"
+        },
+        {
+          "code": 336,
+          "name": "glb 220"
+        },
+        {
+          "code": 329,
+          "name": "glb 250"
+        },
+        {
+          "code": 66,
+          "name": "glb-osztály"
+        },
+        {
+          "code": 325,
+          "name": "glc 200"
+        },
+        {
+          "code": 253,
+          "name": "glc 220"
+        },
+        {
+          "code": 254,
+          "name": "glc 250"
+        },
+        {
+          "code": 284,
+          "name": "glc 300"
+        },
+        {
+          "code": 278,
+          "name": "glc 350"
+        },
+        {
+          "code": 334,
+          "name": "glc 400"
+        },
+        {
+          "code": 279,
+          "name": "glc 43 amg"
+        },
+        {
+          "code": 59,
+          "name": "glc-osztály"
+        },
+        {
+          "code": 266,
+          "name": "gle 250"
+        },
+        {
+          "code": 251,
+          "name": "gle 350"
+        },
+        {
+          "code": 252,
+          "name": "gle 400"
+        },
+        {
+          "code": 243,
+          "name": "gle 450"
+        },
+        {
+          "code": 267,
+          "name": "gle 500"
+        },
+        {
+          "code": 341,
+          "name": "gle 580"
+        },
+        {
+          "code": 58,
+          "name": "gle-osztály"
+        },
+        {
+          "code": 175,
+          "name": "glk 200"
+        },
+        {
+          "code": 206,
+          "name": "glk 220"
+        },
+        {
+          "code": 63,
+          "name": "glk 250"
+        },
+        {
+          "code": 207,
+          "name": "glk 280"
+        },
+        {
+          "code": 208,
+          "name": "glk 320"
+        },
+        {
+          "code": 209,
+          "name": "glk 350"
+        },
+        {
+          "code": 31,
+          "name": "glk-osztály"
+        },
+        {
+          "code": 268,
+          "name": "gls 350"
+        },
+        {
+          "code": 269,
+          "name": "gls 400"
+        },
+        {
+          "code": 270,
+          "name": "gls 500"
+        },
+        {
+          "code": 338,
+          "name": "gls 580"
+        },
+        {
+          "code": 60,
+          "name": "gls-osztály"
+        },
+        {
+          "code": 215,
+          "name": "ml 250"
+        },
+        {
+          "code": 72,
+          "name": "ml 270"
+        },
+        {
+          "code": 73,
+          "name": "ml 280"
+        },
+        {
+          "code": 67,
+          "name": "ml 300"
+        },
+        {
+          "code": 74,
+          "name": "ml 320"
+        },
+        {
+          "code": 75,
+          "name": "ml 350"
+        },
+        {
+          "code": 76,
+          "name": "ml 400"
+        },
+        {
+          "code": 192,
+          "name": "ml 420"
+        },
+        {
+          "code": 77,
+          "name": "ml 430"
+        },
+        {
+          "code": 69,
+          "name": "ml 450"
+        },
+        {
+          "code": 78,
+          "name": "ml 500"
+        },
+        {
+          "code": 79,
+          "name": "ml 55 amg"
+        },
+        {
+          "code": 162,
+          "name": "ml 63 amg"
+        },
+        {
+          "code": 14,
+          "name": "ml-osztály"
+        },
+        {
+          "code": 190,
+          "name": "r 280"
+        },
+        {
+          "code": 92,
+          "name": "r 300"
+        },
+        {
+          "code": 80,
+          "name": "r 320"
+        },
+        {
+          "code": 81,
+          "name": "r 350"
+        },
+        {
+          "code": 82,
+          "name": "r 500"
+        },
+        {
+          "code": 15,
+          "name": "r-osztály"
+        },
+        {
+          "code": 213,
+          "name": "s 250"
+        },
+        {
+          "code": 185,
+          "name": "s 260"
+        },
+        {
+          "code": 83,
+          "name": "s 280"
+        },
+        {
+          "code": 84,
+          "name": "s 300"
+        },
+        {
+          "code": 85,
+          "name": "s 320"
+        },
+        {
+          "code": 86,
+          "name": "s 350"
+        },
+        {
+          "code": 87,
+          "name": "s 400"
+        },
+        {
+          "code": 88,
+          "name": "s 420"
+        },
+        {
+          "code": 89,
+          "name": "s 430"
+        },
+        {
+          "code": 191,
+          "name": "s 450"
+        },
+        {
+          "code": 90,
+          "name": "s 500"
+        },
+        {
+          "code": 91,
+          "name": "s 55"
+        },
+        {
+          "code": 193,
+          "name": "s 550"
+        },
+        {
+          "code": 285,
+          "name": "s 560"
+        },
+        {
+          "code": 348,
+          "name": "s 580"
+        },
+        {
+          "code": 93,
+          "name": "s 600"
+        },
+        {
+          "code": 16,
+          "name": "s-osztály"
+        },
+        {
+          "code": 95,
+          "name": "sl 280"
+        },
+        {
+          "code": 96,
+          "name": "sl 300"
+        },
+        {
+          "code": 97,
+          "name": "sl 320"
+        },
+        {
+          "code": 98,
+          "name": "sl 350"
+        },
+        {
+          "code": 99,
+          "name": "sl 380"
+        },
+        {
+          "code": 101,
+          "name": "sl 450"
+        },
+        {
+          "code": 102,
+          "name": "sl 500"
+        },
+        {
+          "code": 104,
+          "name": "sl 560"
+        },
+        {
+          "code": 105,
+          "name": "sl 600"
+        },
+        {
+          "code": 199,
+          "name": "sl 63 amg"
+        },
+        {
+          "code": 17,
+          "name": "sl-osztály"
+        },
+        {
+          "code": 275,
+          "name": "slc 200"
+        },
+        {
+          "code": 273,
+          "name": "slc 250"
+        },
+        {
+          "code": 276,
+          "name": "slc 300"
+        },
+        {
+          "code": 62,
+          "name": "slc-osztály"
+        },
+        {
+          "code": 108,
+          "name": "slk 200"
+        },
+        {
+          "code": 109,
+          "name": "slk 230"
+        },
+        {
+          "code": 214,
+          "name": "slk 250"
+        },
+        {
+          "code": 112,
+          "name": "slk 320"
+        },
+        {
+          "code": 113,
+          "name": "slk 350"
+        },
+        {
+          "code": 18,
+          "name": "slk-osztály"
+        },
+        {
+          "code": 34,
+          "name": "sls amg"
+        },
+        {
+          "code": 355,
+          "name": "t-osztály"
+        },
+        {
+          "code": 19,
+          "name": "v-osztály"
+        },
+        {
+          "code": 122,
+          "name": "vaneo"
+        },
+        {
+          "code": 124,
+          "name": "viano"
+        },
+        {
+          "code": 125,
+          "name": "vito"
+        },
+        {
+          "code": 65,
+          "name": "x-osztály"
+        }
+      ]
+    },
+    {
+      "code": "17300",
+      "name": "mg",
+      "options": [
+        {
+          "code": 1,
+          "name": "egyéb"
+        },
+        {
+          "code": 19,
+          "name": "ehs"
+        },
+        {
+          "code": 17,
+          "name": "hs"
+        },
+        {
+          "code": 22,
+          "name": "marvel r"
+        },
+        {
+          "code": 23,
+          "name": "mg4"
+        },
+        {
+          "code": 21,
+          "name": "mg5"
+        },
+        {
+          "code": 10,
+          "name": "midget"
+        },
+        {
+          "code": 6,
+          "name": "tf"
+        },
+        {
+          "code": 7,
+          "name": "zr"
+        },
+        {
+          "code": 8,
+          "name": "zs"
+        }
+      ]
+    },
+    {
+      "code": "30011",
+      "name": "microcar",
+      "options": [
+        {
+          "code": 8,
+          "name": "dué"
+        },
+        {
+          "code": 3,
+          "name": "mc2"
+        },
+        {
+          "code": 9,
+          "name": "mgo"
+        },
+        {
+          "code": 12,
+          "name": "virgo"
+        }
+      ]
+    },
+    {
+      "code": "17500",
+      "name": "mini",
+      "options": [
+        {
+          "code": 47,
+          "name": "cabrio"
+        },
+        {
+          "code": 48,
+          "name": "clubman"
+        },
+        {
+          "code": 4,
+          "name": "cooper"
+        },
+        {
+          "code": 49,
+          "name": "countryman"
+        },
+        {
+          "code": 46,
+          "name": "mini"
+        },
+        {
+          "code": 6,
+          "name": "mini one"
+        },
+        {
+          "code": 51,
+          "name": "paceman"
+        }
+      ]
+    },
+    {
+      "code": "17700",
+      "name": "mitsubishi",
+      "options": [
+        {
+          "code": 2,
+          "name": "3000 gt"
+        },
+        {
+          "code": 21,
+          "name": "asx"
+        },
+        {
+          "code": 5,
+          "name": "carisma"
+        },
+        {
+          "code": 6,
+          "name": "colt"
+        },
+        {
+          "code": 7,
+          "name": "cordia"
+        },
+        {
+          "code": 9,
+          "name": "eclipse"
+        },
+        {
+          "code": 36,
+          "name": "eclipse cross"
+        },
+        {
+          "code": 1,
+          "name": "egyéb"
+        },
+        {
+          "code": 10,
+          "name": "galant"
+        },
+        {
+          "code": 12,
+          "name": "grandis"
+        },
+        {
+          "code": 25,
+          "name": "i-miev"
+        },
+        {
+          "code": 13,
+          "name": "l 200"
+        },
+        {
+          "code": 14,
+          "name": "l 300"
+        },
+        {
+          "code": 15,
+          "name": "l 400"
+        },
+        {
+          "code": 16,
+          "name": "lancer"
+        },
+        {
+          "code": 17,
+          "name": "montero"
+        },
+        {
+          "code": 18,
+          "name": "outlander"
+        },
+        {
+          "code": 19,
+          "name": "pajero"
+        },
+        {
+          "code": 20,
+          "name": "pajero pinin"
+        },
+        {
+          "code": 28,
+          "name": "space star"
+        },
+        {
+          "code": 29,
+          "name": "space wagon"
+        },
+        {
+          "code": 31,
+          "name": "tredia"
+        }
+      ]
+    },
+    {
+      "code": "17900",
+      "name": "morgan",
+      "options": [
+        {
+          "code": 3,
+          "name": "4/4"
+        },
+        {
+          "code": 6,
+          "name": "roadster"
+        }
+      ]
+    },
+    {
+      "code": "18700",
+      "name": "nissan",
+      "options": [
+        {
+          "code": 42,
+          "name": "100 nx"
+        },
+        {
+          "code": 43,
+          "name": "200 sx"
+        },
+        {
+          "code": 5,
+          "name": "300 zx"
+        },
+        {
+          "code": 6,
+          "name": "350 z"
+        },
+        {
+          "code": 26,
+          "name": "370 z"
+        },
+        {
+          "code": 7,
+          "name": "almera"
+        },
+        {
+          "code": 8,
+          "name": "almera tino"
+        },
+        {
+          "code": 45,
+          "name": "altima"
+        },
+        {
+          "code": 87,
+          "name": "ariya"
+        },
+        {
+          "code": 9,
+          "name": "armada"
+        },
+        {
+          "code": 10,
+          "name": "bluebird"
+        },
+        {
+          "code": 13,
+          "name": "cherry"
+        },
+        {
+          "code": 1,
+          "name": "egyéb"
+        },
+        {
+          "code": 57,
+          "name": "evalia"
+        },
+        {
+          "code": 49,
+          "name": "gt-r"
+        },
+        {
+          "code": 52,
+          "name": "juke"
+        },
+        {
+          "code": 18,
+          "name": "laurel"
+        },
+        {
+          "code": 53,
+          "name": "leaf"
+        },
+        {
+          "code": 19,
+          "name": "maxima"
+        },
+        {
+          "code": 20,
+          "name": "micra"
+        },
+        {
+          "code": 21,
+          "name": "murano"
+        },
+        {
+          "code": 22,
+          "name": "navara"
+        },
+        {
+          "code": 23,
+          "name": "note"
+        },
+        {
+          "code": 2,
+          "name": "np300"
+        },
+        {
+          "code": 54,
+          "name": "nv200"
+        },
+        {
+          "code": 56,
+          "name": "nv400"
+        },
+        {
+          "code": 24,
+          "name": "pathfinder"
+        },
+        {
+          "code": 25,
+          "name": "patrol"
+        },
+        {
+          "code": 36,
+          "name": "pixo"
+        },
+        {
+          "code": 28,
+          "name": "primastar"
+        },
+        {
+          "code": 29,
+          "name": "primera"
+        },
+        {
+          "code": 58,
+          "name": "pulsar"
+        },
+        {
+          "code": 47,
+          "name": "qashqai"
+        },
+        {
+          "code": 50,
+          "name": "qashqai+2"
+        },
+        {
+          "code": 31,
+          "name": "serena"
+        },
+        {
+          "code": 32,
+          "name": "silvia"
+        },
+        {
+          "code": 33,
+          "name": "skyline"
+        },
+        {
+          "code": 34,
+          "name": "sunny"
+        },
+        {
+          "code": 35,
+          "name": "terrano"
+        },
+        {
+          "code": 48,
+          "name": "tiida"
+        },
+        {
+          "code": 86,
+          "name": "townstar"
+        },
+        {
+          "code": 40,
+          "name": "vanette"
+        },
+        {
+          "code": 41,
+          "name": "x-trail"
+        }
+      ]
+    },
+    {
+      "code": "18975",
+      "name": "oldsmobile",
+      "options": [
+        {
+          "code": 4,
+          "name": "cutlass"
+        }
+      ]
+    },
+    {
+      "code": "19000",
+      "name": "opel",
+      "options": [
+        {
+          "code": 38,
+          "name": "adam"
+        },
+        {
+          "code": 2,
+          "name": "agila"
+        },
+        {
+          "code": 28,
+          "name": "ampera"
+        },
+        {
+          "code": 34,
+          "name": "antara"
+        },
+        {
+          "code": 4,
+          "name": "ascona"
+        },
+        {
+          "code": 5,
+          "name": "astra"
+        },
+        {
+          "code": 6,
+          "name": "calibra"
+        },
+        {
+          "code": 7,
+          "name": "campo"
+        },
+        {
+          "code": 39,
+          "name": "cascada"
+        },
+        {
+          "code": 8,
+          "name": "combo"
+        },
+        {
+          "code": 10,
+          "name": "corsa"
+        },
+        {
+          "code": 42,
+          "name": "crossland x"
+        },
+        {
+          "code": 1,
+          "name": "egyéb"
+        },
+        {
+          "code": 12,
+          "name": "frontera"
+        },
+        {
+          "code": 43,
+          "name": "grandland x"
+        },
+        {
+          "code": 13,
+          "name": "gt"
+        },
+        {
+          "code": 35,
+          "name": "insignia"
+        },
+        {
+          "code": 14,
+          "name": "kadett"
+        },
+        {
+          "code": 41,
+          "name": "karl"
+        },
+        {
+          "code": 16,
+          "name": "meriva"
+        },
+        {
+          "code": 37,
+          "name": "mokka"
+        },
+        {
+          "code": 44,
+          "name": "mokka x"
+        },
+        {
+          "code": 17,
+          "name": "monterey"
+        },
+        {
+          "code": 19,
+          "name": "movano"
+        },
+        {
+          "code": 20,
+          "name": "omega"
+        },
+        {
+          "code": 22,
+          "name": "rekord"
+        },
+        {
+          "code": 23,
+          "name": "senator"
+        },
+        {
+          "code": 24,
+          "name": "signum"
+        },
+        {
+          "code": 26,
+          "name": "speedster"
+        },
+        {
+          "code": 27,
+          "name": "tigra"
+        },
+        {
+          "code": 29,
+          "name": "vectra"
+        },
+        {
+          "code": 30,
+          "name": "vivaro"
+        },
+        {
+          "code": 31,
+          "name": "zafira"
+        },
+        {
+          "code": 46,
+          "name": "zafira life"
+        },
+        {
+          "code": 36,
+          "name": "zafira tourer"
+        }
+      ]
+    },
+    {
+      "code": "19300",
+      "name": "peugeot",
+      "options": [
+        {
+          "code": 2,
+          "name": "1007"
+        },
+        {
+          "code": 3,
+          "name": "104"
+        },
+        {
+          "code": 4,
+          "name": "106"
+        },
+        {
+          "code": 5,
+          "name": "107"
+        },
+        {
+          "code": 47,
+          "name": "108"
+        },
+        {
+          "code": 46,
+          "name": "2008"
+        },
+        {
+          "code": 6,
+          "name": "204"
+        },
+        {
+          "code": 7,
+          "name": "205"
+        },
+        {
+          "code": 8,
+          "name": "206"
+        },
+        {
+          "code": 30,
+          "name": "207"
+        },
+        {
+          "code": 43,
+          "name": "208"
+        },
+        {
+          "code": 26,
+          "name": "3008"
+        },
+        {
+          "code": 45,
+          "name": "301"
+        },
+        {
+          "code": 10,
+          "name": "305"
+        },
+        {
+          "code": 11,
+          "name": "306"
+        },
+        {
+          "code": 12,
+          "name": "307"
+        },
+        {
+          "code": 32,
+          "name": "308"
+        },
+        {
+          "code": 13,
+          "name": "309"
+        },
+        {
+          "code": 31,
+          "name": "4007"
+        },
+        {
+          "code": 44,
+          "name": "4008"
+        },
+        {
+          "code": 14,
+          "name": "404"
+        },
+        {
+          "code": 15,
+          "name": "405"
+        },
+        {
+          "code": 16,
+          "name": "406"
+        },
+        {
+          "code": 17,
+          "name": "407"
+        },
+        {
+          "code": 37,
+          "name": "408"
+        },
+        {
+          "code": 35,
+          "name": "5008"
+        },
+        {
+          "code": 18,
+          "name": "504"
+        },
+        {
+          "code": 19,
+          "name": "505"
+        },
+        {
+          "code": 42,
+          "name": "508"
+        },
+        {
+          "code": 21,
+          "name": "605"
+        },
+        {
+          "code": 22,
+          "name": "607"
+        },
+        {
+          "code": 23,
+          "name": "806"
+        },
+        {
+          "code": 24,
+          "name": "807"
+        },
+        {
+          "code": 33,
+          "name": "bipper"
+        },
+        {
+          "code": 25,
+          "name": "boxer"
+        },
+        {
+          "code": 27,
+          "name": "expert"
+        },
+        {
+          "code": 38,
+          "name": "ion"
+        },
+        {
+          "code": 29,
+          "name": "partner"
+        },
+        {
+          "code": 36,
+          "name": "rcz"
+        },
+        {
+          "code": 49,
+          "name": "rifter"
+        },
+        {
+          "code": 48,
+          "name": "traveller"
+        }
+      ]
+    },
+    {
+      "code": "4",
+      "name": "polestar",
+      "options": [
+        {
+          "code": 3,
+          "name": "2"
+        }
+      ]
+    },
+    {
+      "code": "20000",
+      "name": "pontiac",
+      "options": [
+        {
+          "code": 6,
+          "name": "firebird"
+        },
+        {
+          "code": 12,
+          "name": "solstice"
+        },
+        {
+          "code": 16,
+          "name": "trans am"
+        }
+      ]
+    },
+    {
+      "code": "20100",
+      "name": "porsche",
+      "options": [
+        {
+          "code": 40,
+          "name": "911"
+        },
+        {
+          "code": 10,
+          "name": "924"
+        },
+        {
+          "code": 11,
+          "name": "928"
+        },
+        {
+          "code": 12,
+          "name": "944"
+        },
+        {
+          "code": 5,
+          "name": "964"
+        },
+        {
+          "code": 15,
+          "name": "968"
+        },
+        {
+          "code": 21,
+          "name": "991"
+        },
+        {
+          "code": 28,
+          "name": "992"
+        },
+        {
+          "code": 6,
+          "name": "993"
+        },
+        {
+          "code": 7,
+          "name": "996"
+        },
+        {
+          "code": 17,
+          "name": "997"
+        },
+        {
+          "code": 16,
+          "name": "boxster"
+        },
+        {
+          "code": 20,
+          "name": "carrera"
+        },
+        {
+          "code": 18,
+          "name": "cayenne"
+        },
+        {
+          "code": 19,
+          "name": "cayman"
+        },
+        {
+          "code": 22,
+          "name": "macan"
+        },
+        {
+          "code": 4,
+          "name": "panamera"
+        },
+        {
+          "code": 30,
+          "name": "taycan"
+        }
+      ]
+    },
+    {
+      "code": "20200",
+      "name": "proton",
+      "options": [
+        {
+          "code": 7,
+          "name": "400"
+        }
+      ]
+    },
+    {
+      "code": "20700",
+      "name": "renault",
+      "options": [
+        {
+          "code": 64,
+          "name": "arkana"
+        },
+        {
+          "code": 65,
+          "name": "austral"
+        },
+        {
+          "code": 5,
+          "name": "avantime"
+        },
+        {
+          "code": 47,
+          "name": "captur"
+        },
+        {
+          "code": 6,
+          "name": "clio"
+        },
+        {
+          "code": 8,
+          "name": "espace"
+        },
+        {
+          "code": 36,
+          "name": "fluence"
+        },
+        {
+          "code": 10,
+          "name": "fuego"
+        },
+        {
+          "code": 11,
+          "name": "grand espace"
+        },
+        {
+          "code": 42,
+          "name": "grand modus"
+        },
+        {
+          "code": 12,
+          "name": "grand scenic"
+        },
+        {
+          "code": 48,
+          "name": "kadjar"
+        },
+        {
+          "code": 13,
+          "name": "kangoo"
+        },
+        {
+          "code": 41,
+          "name": "koleos"
+        },
+        {
+          "code": 14,
+          "name": "laguna"
+        },
+        {
+          "code": 44,
+          "name": "latitude"
+        },
+        {
+          "code": 16,
+          "name": "master"
+        },
+        {
+          "code": 17,
+          "name": "megane"
+        },
+        {
+          "code": 18,
+          "name": "modus"
+        },
+        {
+          "code": 20,
+          "name": "r 11"
+        },
+        {
+          "code": 23,
+          "name": "r 19"
+        },
+        {
+          "code": 25,
+          "name": "r 21"
+        },
+        {
+          "code": 26,
+          "name": "r 25"
+        },
+        {
+          "code": 28,
+          "name": "r 4"
+        },
+        {
+          "code": 29,
+          "name": "r 5"
+        },
+        {
+          "code": 31,
+          "name": "r 9"
+        },
+        {
+          "code": 33,
+          "name": "safrane"
+        },
+        {
+          "code": 34,
+          "name": "scenic"
+        },
+        {
+          "code": 49,
+          "name": "talisman"
+        },
+        {
+          "code": 37,
+          "name": "trafic"
+        },
+        {
+          "code": 38,
+          "name": "twingo"
+        },
+        {
+          "code": 45,
+          "name": "twizy"
+        },
+        {
+          "code": 39,
+          "name": "vel satis"
+        },
+        {
+          "code": 43,
+          "name": "wind"
+        },
+        {
+          "code": 46,
+          "name": "zoe"
+        }
+      ]
+    },
+    {
+      "code": "21600",
+      "name": "rolls-royce",
+      "options": [
+        {
+          "code": 3,
+          "name": "corniche"
+        },
+        {
+          "code": 1,
+          "name": "egyéb"
+        },
+        {
+          "code": 12,
+          "name": "ghost"
+        },
+        {
+          "code": 6,
+          "name": "phantom"
+        },
+        {
+          "code": 2,
+          "name": "silver cloud"
+        },
+        {
+          "code": 9,
+          "name": "silver shadow"
+        },
+        {
+          "code": 11,
+          "name": "silver spur"
+        }
+      ]
+    },
+    {
+      "code": "21700",
+      "name": "rover",
+      "options": [
+        {
+          "code": 5,
+          "name": "200"
+        },
+        {
+          "code": 7,
+          "name": "214"
+        },
+        {
+          "code": 8,
+          "name": "216"
+        },
+        {
+          "code": 10,
+          "name": "25"
+        },
+        {
+          "code": 11,
+          "name": "400"
+        },
+        {
+          "code": 12,
+          "name": "414"
+        },
+        {
+          "code": 16,
+          "name": "45"
+        },
+        {
+          "code": 17,
+          "name": "600"
+        },
+        {
+          "code": 20,
+          "name": "623"
+        },
+        {
+          "code": 21,
+          "name": "75"
+        },
+        {
+          "code": 22,
+          "name": "800"
+        },
+        {
+          "code": 23,
+          "name": "820"
+        },
+        {
+          "code": 32,
+          "name": "streetwise"
+        }
+      ]
+    },
+    {
+      "code": "21800",
+      "name": "saab",
+      "options": [
+        {
+          "code": 5,
+          "name": "9-3"
+        },
+        {
+          "code": 6,
+          "name": "9-5"
+        },
+        {
+          "code": 3,
+          "name": "900"
+        },
+        {
+          "code": 4,
+          "name": "9000"
+        }
+      ]
+    },
+    {
+      "code": "22500",
+      "name": "seat",
+      "options": [
+        {
+          "code": 2,
+          "name": "alhambra"
+        },
+        {
+          "code": 3,
+          "name": "altea"
+        },
+        {
+          "code": 16,
+          "name": "arona"
+        },
+        {
+          "code": 4,
+          "name": "arosa"
+        },
+        {
+          "code": 13,
+          "name": "ateca"
+        },
+        {
+          "code": 5,
+          "name": "cordoba"
+        },
+        {
+          "code": 6,
+          "name": "exeo"
+        },
+        {
+          "code": 7,
+          "name": "ibiza"
+        },
+        {
+          "code": 9,
+          "name": "leon"
+        },
+        {
+          "code": 10,
+          "name": "malaga"
+        },
+        {
+          "code": 11,
+          "name": "marbella"
+        },
+        {
+          "code": 12,
+          "name": "mii"
+        },
+        {
+          "code": 17,
+          "name": "tarraco"
+        },
+        {
+          "code": 15,
+          "name": "toledo"
+        }
+      ]
+    },
+    {
+      "code": "22900",
+      "name": "skoda",
+      "options": [
+        {
+          "code": 2,
+          "name": "105"
+        },
+        {
+          "code": 3,
+          "name": "120"
+        },
+        {
+          "code": 17,
+          "name": "citigo"
+        },
+        {
+          "code": 1,
+          "name": "egyéb"
+        },
+        {
+          "code": 25,
+          "name": "enyaq"
+        },
+        {
+          "code": 6,
+          "name": "fabia"
+        },
+        {
+          "code": 7,
+          "name": "favorit"
+        },
+        {
+          "code": 8,
+          "name": "felicia"
+        },
+        {
+          "code": 9,
+          "name": "forman"
+        },
+        {
+          "code": 24,
+          "name": "kamiq"
+        },
+        {
+          "code": 20,
+          "name": "karoq"
+        },
+        {
+          "code": 19,
+          "name": "kodiaq"
+        },
+        {
+          "code": 10,
+          "name": "octavia"
+        },
+        {
+          "code": 18,
+          "name": "rapid"
+        },
+        {
+          "code": 13,
+          "name": "roomster"
+        },
+        {
+          "code": 21,
+          "name": "scala"
+        },
+        {
+          "code": 12,
+          "name": "superb"
+        },
+        {
+          "code": 15,
+          "name": "yeti"
+        }
+      ]
+    },
+    {
+      "code": "23000",
+      "name": "smart",
+      "options": [
+        {
+          "code": 1,
+          "name": "egyéb"
+        },
+        {
+          "code": 3,
+          "name": "forfour"
+        },
+        {
+          "code": 4,
+          "name": "fortwo"
+        },
+        {
+          "code": 5,
+          "name": "roadster"
+        }
+      ]
+    },
+    {
+      "code": "23100",
+      "name": "ssangyong",
+      "options": [
+        {
+          "code": 8,
+          "name": "actyon"
+        },
+        {
+          "code": 3,
+          "name": "korando"
+        },
+        {
+          "code": 4,
+          "name": "kyron"
+        },
+        {
+          "code": 5,
+          "name": "musso"
+        },
+        {
+          "code": 6,
+          "name": "rexton"
+        },
+        {
+          "code": 7,
+          "name": "rodius"
+        },
+        {
+          "code": 9,
+          "name": "tivoli"
+        },
+        {
+          "code": 10,
+          "name": "xlv"
+        }
+      ]
+    },
+    {
+      "code": "23500",
+      "name": "subaru",
+      "options": [
+        {
+          "code": 4,
+          "name": "b9 tribeca"
+        },
+        {
+          "code": 5,
+          "name": "baja"
+        },
+        {
+          "code": 12,
+          "name": "brz"
+        },
+        {
+          "code": 7,
+          "name": "forester"
+        },
+        {
+          "code": 8,
+          "name": "impreza"
+        },
+        {
+          "code": 9,
+          "name": "justy"
+        },
+        {
+          "code": 10,
+          "name": "legacy"
+        },
+        {
+          "code": 17,
+          "name": "levorg"
+        },
+        {
+          "code": 13,
+          "name": "outback"
+        },
+        {
+          "code": 36,
+          "name": "solterra"
+        },
+        {
+          "code": 6,
+          "name": "xv"
+        }
+      ]
+    },
+    {
+      "code": "23600",
+      "name": "suzuki",
+      "options": [
+        {
+          "code": 342,
+          "name": "across"
+        },
+        {
+          "code": 2,
+          "name": "alto"
+        },
+        {
+          "code": 3,
+          "name": "baleno"
+        },
+        {
+          "code": 13,
+          "name": "celerio"
+        },
+        {
+          "code": 6,
+          "name": "grand vitara"
+        },
+        {
+          "code": 7,
+          "name": "ignis"
+        },
+        {
+          "code": 8,
+          "name": "jimny"
+        },
+        {
+          "code": 11,
+          "name": "kizashi"
+        },
+        {
+          "code": 9,
+          "name": "liana"
+        },
+        {
+          "code": 12,
+          "name": "s-cross"
+        },
+        {
+          "code": 17,
+          "name": "sj samurai"
+        },
+        {
+          "code": 24,
+          "name": "splash"
+        },
+        {
+          "code": 341,
+          "name": "swace"
+        },
+        {
+          "code": 19,
+          "name": "swift"
+        },
+        {
+          "code": 20,
+          "name": "vitara"
+        },
+        {
+          "code": 21,
+          "name": "wagon r+"
+        }
+      ]
+    },
+    {
+      "code": "23825",
+      "name": "tata",
+      "options": [
+        {
+          "code": 4,
+          "name": "safari"
+        },
+        {
+          "code": 5,
+          "name": "xenon"
+        }
+      ]
+    },
+    {
+      "code": "135",
+      "name": "tesla",
+      "options": [
+        {
+          "code": 1,
+          "name": "egyéb"
+        },
+        {
+          "code": 5,
+          "name": "model 3"
+        },
+        {
+          "code": 3,
+          "name": "model s"
+        },
+        {
+          "code": 4,
+          "name": "model x"
+        },
+        {
+          "code": 6,
+          "name": "model y"
+        }
+      ]
+    },
+    {
+      "code": "24100",
+      "name": "toyota",
+      "options": [
+        {
+          "code": 2,
+          "name": "4 runner"
+        },
+        {
+          "code": 39,
+          "name": "auris"
+        },
+        {
+          "code": 4,
+          "name": "avensis"
+        },
+        {
+          "code": 14,
+          "name": "avensis verso"
+        },
+        {
+          "code": 5,
+          "name": "aygo"
+        },
+        {
+          "code": 87,
+          "name": "bz4x"
+        },
+        {
+          "code": 48,
+          "name": "c-hr"
+        },
+        {
+          "code": 6,
+          "name": "camry"
+        },
+        {
+          "code": 7,
+          "name": "carina"
+        },
+        {
+          "code": 8,
+          "name": "celica"
+        },
+        {
+          "code": 9,
+          "name": "corolla"
+        },
+        {
+          "code": 88,
+          "name": "corolla cross"
+        },
+        {
+          "code": 40,
+          "name": "corolla verso"
+        },
+        {
+          "code": 92,
+          "name": "gr86"
+        },
+        {
+          "code": 31,
+          "name": "gt86"
+        },
+        {
+          "code": 15,
+          "name": "highlander"
+        },
+        {
+          "code": 41,
+          "name": "iq"
+        },
+        {
+          "code": 19,
+          "name": "land cruiser"
+        },
+        {
+          "code": 46,
+          "name": "mirai"
+        },
+        {
+          "code": 22,
+          "name": "mr 2"
+        },
+        {
+          "code": 23,
+          "name": "paseo"
+        },
+        {
+          "code": 26,
+          "name": "previa"
+        },
+        {
+          "code": 27,
+          "name": "prius"
+        },
+        {
+          "code": 42,
+          "name": "prius+"
+        },
+        {
+          "code": 76,
+          "name": "proace"
+        },
+        {
+          "code": 28,
+          "name": "rav 4"
+        },
+        {
+          "code": 29,
+          "name": "sequoia"
+        },
+        {
+          "code": 30,
+          "name": "sienna"
+        },
+        {
+          "code": 32,
+          "name": "starlet"
+        },
+        {
+          "code": 33,
+          "name": "supra"
+        },
+        {
+          "code": 37,
+          "name": "tacoma"
+        },
+        {
+          "code": 35,
+          "name": "tundra"
+        },
+        {
+          "code": 13,
+          "name": "urban cruiser"
+        },
+        {
+          "code": 20,
+          "name": "verso"
+        },
+        {
+          "code": 24,
+          "name": "verso-s"
+        },
+        {
+          "code": 36,
+          "name": "yaris"
+        },
+        {
+          "code": 78,
+          "name": "yaris cross"
+        }
+      ]
+    },
+    {
+      "code": "24200",
+      "name": "trabant",
+      "options": [
+        {
+          "code": 2,
+          "name": "601"
+        },
+        {
+          "code": 1,
+          "name": "egyéb"
+        }
+      ]
+    },
+    {
+      "code": "24400",
+      "name": "triumph",
+      "options": [
+        {
+          "code": 4,
+          "name": "spitfire"
+        },
+        {
+          "code": 8,
+          "name": "tr6"
+        },
+        {
+          "code": 9,
+          "name": "tr7"
+        }
+      ]
+    },
+    {
+      "code": "25200",
+      "name": "volkswagen",
+      "options": [
+        {
+          "code": 5,
+          "name": "amarok"
+        },
+        {
+          "code": 64,
+          "name": "arteon"
+        },
+        {
+          "code": 10,
+          "name": "beetle"
+        },
+        {
+          "code": 6,
+          "name": "bora"
+        },
+        {
+          "code": 7,
+          "name": "buggy"
+        },
+        {
+          "code": 9,
+          "name": "caddy"
+        },
+        {
+          "code": 19,
+          "name": "cc"
+        },
+        {
+          "code": 12,
+          "name": "corrado"
+        },
+        {
+          "code": 3,
+          "name": "crafter"
+        },
+        {
+          "code": 1,
+          "name": "egyéb"
+        },
+        {
+          "code": 41,
+          "name": "eos"
+        },
+        {
+          "code": 13,
+          "name": "fox"
+        },
+        {
+          "code": 29,
+          "name": "golf"
+        },
+        {
+          "code": 55,
+          "name": "golf plus"
+        },
+        {
+          "code": 40,
+          "name": "golf sportsvan"
+        },
+        {
+          "code": 94,
+          "name": "id. buzz"
+        },
+        {
+          "code": 81,
+          "name": "id.3"
+        },
+        {
+          "code": 82,
+          "name": "id.4"
+        },
+        {
+          "code": 93,
+          "name": "id.5"
+        },
+        {
+          "code": 15,
+          "name": "iltis"
+        },
+        {
+          "code": 16,
+          "name": "jetta"
+        },
+        {
+          "code": 18,
+          "name": "karmann ghia"
+        },
+        {
+          "code": 20,
+          "name": "lt"
+        },
+        {
+          "code": 21,
+          "name": "lupo"
+        },
+        {
+          "code": 24,
+          "name": "new beetle"
+        },
+        {
+          "code": 37,
+          "name": "passat"
+        },
+        {
+          "code": 62,
+          "name": "passat alltrack"
+        },
+        {
+          "code": 4,
+          "name": "passat cc"
+        },
+        {
+          "code": 26,
+          "name": "phaeton"
+        },
+        {
+          "code": 27,
+          "name": "polo"
+        },
+        {
+          "code": 8,
+          "name": "routan"
+        },
+        {
+          "code": 28,
+          "name": "santana"
+        },
+        {
+          "code": 29,
+          "name": "scirocco"
+        },
+        {
+          "code": 30,
+          "name": "sharan"
+        },
+        {
+          "code": 75,
+          "name": "t-cross"
+        },
+        {
+          "code": 65,
+          "name": "t-roc"
+        },
+        {
+          "code": 86,
+          "name": "taigo"
+        },
+        {
+          "code": 54,
+          "name": "tiguan"
+        },
+        {
+          "code": 66,
+          "name": "tiguan allspace"
+        },
+        {
+          "code": 36,
+          "name": "touareg"
+        },
+        {
+          "code": 37,
+          "name": "touran"
+        },
+        {
+          "code": 11,
+          "name": "up!"
+        },
+        {
+          "code": 39,
+          "name": "vento"
+        }
+      ]
+    },
+    {
+      "code": "25100",
+      "name": "volvo",
+      "options": [
+        {
+          "code": 2,
+          "name": "240"
+        },
+        {
+          "code": 3,
+          "name": "244"
+        },
+        {
+          "code": 4,
+          "name": "245"
+        },
+        {
+          "code": 7,
+          "name": "340"
+        },
+        {
+          "code": 9,
+          "name": "440"
+        },
+        {
+          "code": 10,
+          "name": "460"
+        },
+        {
+          "code": 11,
+          "name": "480"
+        },
+        {
+          "code": 12,
+          "name": "740"
+        },
+        {
+          "code": 15,
+          "name": "760"
+        },
+        {
+          "code": 18,
+          "name": "850"
+        },
+        {
+          "code": 20,
+          "name": "940"
+        },
+        {
+          "code": 23,
+          "name": "960"
+        },
+        {
+          "code": 39,
+          "name": "c30"
+        },
+        {
+          "code": 47,
+          "name": "c40"
+        },
+        {
+          "code": 25,
+          "name": "c70"
+        },
+        {
+          "code": 1,
+          "name": "egyéb"
+        },
+        {
+          "code": 48,
+          "name": "ex90"
+        },
+        {
+          "code": 27,
+          "name": "s40"
+        },
+        {
+          "code": 28,
+          "name": "s60"
+        },
+        {
+          "code": 29,
+          "name": "s70"
+        },
+        {
+          "code": 30,
+          "name": "s80"
+        },
+        {
+          "code": 31,
+          "name": "s90"
+        },
+        {
+          "code": 32,
+          "name": "v40"
+        },
+        {
+          "code": 33,
+          "name": "v50"
+        },
+        {
+          "code": 16,
+          "name": "v60"
+        },
+        {
+          "code": 34,
+          "name": "v70"
+        },
+        {
+          "code": 35,
+          "name": "v90"
+        },
+        {
+          "code": 45,
+          "name": "xc40"
+        },
+        {
+          "code": 40,
+          "name": "xc60"
+        },
+        {
+          "code": 36,
+          "name": "xc70"
+        },
+        {
+          "code": 37,
+          "name": "xc90"
+        }
+      ]
+    },
+    {
+      "code": "25300",
+      "name": "wartburg",
+      "options": [
+        {
+          "code": 3,
+          "name": "311"
+        },
+        {
+          "code": 4,
+          "name": "353"
+        }
+      ]
+    }
+  ]
+}

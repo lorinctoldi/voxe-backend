@@ -3,6 +3,7 @@ const cheerio = require('cheerio');
 // const fs = require('fs')
 
 async function scrapeDataForYearRange(makeId, modellId, design, year, doorCount) {
+  console.log(year, year+1)
   try {
     const response = await axios.post('https://www.hasznaltauto.hu/egyszeru/szemelyauto', {
       marka_id: makeId,
