@@ -1,5 +1,0 @@
-title,
-price,
-fuel,
-year,
-month
