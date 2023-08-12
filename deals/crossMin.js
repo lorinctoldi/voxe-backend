@@ -15,8 +15,8 @@ function normalize(items, summary) {
 }
 
 async function getIt() {
-  const items = await mobile.scrapeAllData(3500, 330)
-  const hasznaltautoItems = await hasznaltauto.scrapeAllData(22, 27227)
+  const items = await mobile.scrapeAllData(1900, 40)
+  const hasznaltautoItems = await hasznaltauto.scrapeAllData(12, 11204)
   const summary = sum.getSum(hasznaltautoItems)
   const res = normalize(items, summary)
   fs.writeFileSync('writed.json', JSON.stringify(res, null, 2))

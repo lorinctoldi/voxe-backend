@@ -4,6 +4,7 @@ const router = express.Router();
 const hasznaltauto_scraper = require('../scraper/hasznaltauto'); 
 const mobile_scraper = require('../scraper/mobile')
 const sum = require('../math/sum')
+const score = require('../deals/crossScore')
 
 
 router.post('/scrape/hasznaltauto', async (req, res) => {
@@ -38,7 +39,7 @@ router.post('/scrape/mobile', async (req, res) => {
   }
 })
 
-router.post('/yearly-price-summary/hasznaltauto', async(req, res) => {
+router.post('/yearly-summary/hasznaltauto', async(req, res) => {
   if (Object.keys(req.body).length === 0) return res.json('No data in request!');
   
   const { make, model, design, startYear, endYear, doorCount } = req.body;
@@ -54,7 +55,7 @@ router.post('/yearly-price-summary/hasznaltauto', async(req, res) => {
   }
 })
 
-router.post('/yearly-price-summary/mobile', async(req, res) => {
+router.post('/yearly-summary/mobile', async(req, res) => {
   if (Object.keys(req.body).length === 0) return res.json('No data in request!');
   
   const { make, model, design, startYear, endYear } = req.body;
@@ -67,6 +68,22 @@ router.post('/yearly-price-summary/mobile', async(req, res) => {
   } catch (error) {
     console.error('Error during scraping:', error);
     res.status(500).json({ error: 'An error occurred during scraping.' });
+  }
+})
+
+router.post('/reverse-score', async(req, res) => {
+  if (Object.keys(req.body).length === 0) return res.json('No data in request!');
+  const { mobileMake, mobileModel, hasznaltautoMake, hasznaltautoModel, startYear, endYear} = req.body
+
+  if(!mobileMake || !mobileModel || !hasznaltautoMake || !hasznaltautoMake) return res.json('No make or no model provided!');
+  if(startYear > endYear) return res.json('Starting year is higher than ending year!')
+
+  try {
+    const data = await score.getScoredItems(mobileMake, mobileModel, hasznaltautoMake, hasznaltautoModel, startYear, endYear)
+    res.json(data)
+  } catch (error) {
+    console.error('Error during process:', error)
+    res.status(500).json({ error: 'An error occurred during process.' });
   }
 })
 
