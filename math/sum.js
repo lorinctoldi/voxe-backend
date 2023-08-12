@@ -10,7 +10,8 @@ function getSum(data) {
   const dataByYears = {}
 
   for(year in minValue) {
-    dataByYears[year] = { min: minValue[year], max: maxValue[year], med: medValue[year], avg: avgValue[year], div: divValue[year]}
+    // dataByYears[year] = { min: minValue[year], max: maxValue[year], med: medValue[year], avg: avgValue[year], div: divValue[year] }
+    dataByYears[year] = { min: minValue[year], max: maxValue[year] }
   }
   
   return dataByYears

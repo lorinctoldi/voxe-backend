@@ -13,6 +13,8 @@ function getMed(data) {
   }
   
   const medianPricesByYear = {};
+  const medianOdometersByYear = {};
+  const medianHorsePowerByYear = {};
   
   for (const entry of data) {
     const price = parseInt(entry.price);
@@ -30,7 +32,40 @@ function getMed(data) {
     medianPricesByYear[year] = medianPrice
   }
 
-  return medianPricesByYear
+  for (const entry of data) {
+    const odometer = parseInt(entry.odometer);
+    const year = parseInt(entry.year);
+  
+    if (!medianOdometersByYear.hasOwnProperty(year)) {
+        medianOdometersByYear[year] = [];
+    }
+  
+    medianOdometersByYear[year].push(odometer);
+  }
+
+  for (const year in medianOdometersByYear) {
+    const medianOdometer = calculateMedian(medianOdometersByYear[year]);
+    medianOdometersByYear[year] = medianOdometer
+  }
+
+  for (const entry of data) {
+    const horsePower = parseInt(entry.horse_power);
+    const year = parseInt(entry.year);
+  
+    if (!medianHorsePowerByYear.hasOwnProperty(year)) {
+        medianHorsePowerByYear[year] = [];
+    }
+  
+    medianHorsePowerByYear[year].push(horsePower);
+  }
+
+  for (const year in medianHorsePowerByYear) {
+    const medianHorsePower = calculateMedian(medianHorsePowerByYear[year]);
+    medianHorsePowerByYear[year] = medianHorsePower
+  }
+
+
+  return {price: medianPricesByYear, odometer: medianOdometersByYear, horsepower: medianHorsePowerByYear}
 }
 
 module.exports = {
