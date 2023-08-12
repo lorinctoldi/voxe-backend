@@ -1,0 +1,89 @@
+[
+  {
+    "isEyeCatcher": false,
+    "numImages": 15,
+    "searchId": "caaa783a-1242-086e-c838-240fd9f993fe",
+    "isVideoEnabled": false,
+    "hasElectricEngine": true,
+    "financePlans": [
+      {
+        "type": "DF",
+        "budgetStatus": "DEFAULT",
+        "fallback": false,
+        "showInGallery": false,
+        "url": "https://www.mobile.de/finanzierung/route/outlink/3?adId=368536610&loanDuration=60&downPayment=0",
+        "bankId": "Santander",
+        "downPayment": 0,
+        "loanDuration": 60,
+        "netAmount": 34840,
+        "monthlyRate": 686.1907295529098,
+        "interestRateEffective": 6.99,
+        "disclaimer": "Offer by Santander Consumer Bank AG: 2/3 of all borrowers receive a representative rate of 6.99% APR, fixed rate of 6.78% p.a., total amount repayable of €41,382.56, monthly repayments of €689.71. For a case-specific credit calculation additional information is required.",
+        "localized": {
+          "amount": "€34,840",
+          "netAmount": "€34,840",
+          "downPayment": "€0",
+          "monthlyRate": "€687",
+          "interestRateEffective": "6.99%"
+        }
+      },
+      {
+        "type": "AO",
+        "budgetStatus": "DEFAULT",
+        "fallback": false,
+        "showInGallery": false,
+        "url": "https://www.mobile.de/finanzierung/route/outlink/3?adId=368536610&loanDuration=60&downPayment=0",
+        "downPayment": 0,
+        "loanDuration": 60,
+        "netAmount": 34840,
+        "monthlyRate": 619.2402345084959,
+        "interestRateEffective": 2.59,
+        "disclaimer": "Example credit of one of our mobile.de financing partners: 2/3 of all borrowers receive a representative rate of 2.99% APR, fixed rate of 2.95% p.a., total amount repayable of €37,552.46, monthly repayments of €625.87. For a case-specific credit calculation additional information is required.",
+        "localized": {
+          "amount": "€34,840",
+          "netAmount": "€34,840",
+          "downPayment": "€0",
+          "monthlyRate": "€620",
+          "interestRateEffective": "2.59%",
+          "checkBankName": "Kredite24",
+          "checkMinMonthlyRate": "€591",
+          "checkMaxMonthlyRate": "€702",
+          "checkRepresentativeExample": "Bonitätsabhängig - Repräsentatives Bsp. (2/3 der Kunden erhalten): eff. Jahreszins 6.49%, Nettodarlehensbetrag 10.000 €, 60 Monatsraten á €194.75, Gesamtbetrag €11,684.85"
+        }
+      }
+    ],
+    "sellerId": 465756,
+    "priceRating": {
+      "rating": "VERY_GOOD_PRICE",
+      "ratingLabel": "Very good price",
+      "thresholdLabels": [
+        "€32,600",
+        "€39,100",
+        "€41,700",
+        "€46,800",
+        "€53,300",
+        "€55,500"
+      ],
+      "vehiclePriceOffset": 34
+    },
+    "segment": "Car",
+    "title": "Tesla Model 3 Allradantrieb Dual Motor Autopilot",
+    "vc": "Car",
+    "category": "Saloon",
+    "id": 368536610,
+    "kba": { "hsn": "1480", "tsn": "AAR" },
+    "customDimensions": { "10": "comfort" },
+    "relativePath": "/auto-inserat/tesla-model-3-allradantrieb-dual-motor-autopilot-eilenburg/368536610.html?searchId=caaa783a-1242-086e-c838-240fd9f993fe&ref=srp&type=ad",
+    "attributes": [
+      "FR 03/2019 • 33,804 km • 258 kW (351 Hp)",
+      "Saloon • Electric • Automatic transmission • 4/5 Doors",
+      "14.6 kWh/100km (comb.)* • 0 g CO₂/km (comb.)*"
+    ]
+  },
+
+  {
+    "odometer": "55438",
+    "link": "https://www.hasznaltauto.hu/szemelyauto/audi/a5/audi_a5_sportback_35_tfsi_s_tronic_led_navi_pdc_tempo-19072262#sid=14ab2026-ec90-4cc5-96ed-a009721d525c",
+    "image_small": "https://hasznaltauto.medija.hu/16593/19072262_1t.jpg?v=1685021235"
+  }
+]
