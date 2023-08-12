@@ -1,11 +1,11 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
 
-async function scrapeDataForYearRange(makeId, modellId, design, year, doorCount) {
+async function scrapeDataForYearRange(make, model, design, year, doorCount) {
   try {
     const response = await axios.post('https://www.hasznaltauto.hu/egyszeru/szemelyauto', {
-      marka_id: makeId,
-      modell_id: modellId,
+      marka_id: make,
+      modell_id: model,
       results: 600,
       ajtok_szama: doorCount,
       evjarat_min: year,
@@ -17,7 +17,7 @@ async function scrapeDataForYearRange(makeId, modellId, design, year, doorCount)
     const listings = [];
 
     $('div.talalati-sor').each((index, element) => {
-      const title = $(element).find('h3 a').text();
+      const label = $(element).find('h3 a').text();
       const price = $(element).find('div.pricefield-primary').first().text().replace('Ft', '').replace(/\s/g, '');
       const fuel = $(element).find('span.info').eq(0).text().replace(',','').toLowerCase().replace(/\s/g, '');
       const [dateYear, dateMonth] = $(element).find('span.info').eq(1).text().replace(',','').replace(/\s/g, '').split('/');
@@ -30,7 +30,7 @@ async function scrapeDataForYearRange(makeId, modellId, design, year, doorCount)
       // const image = imageSmall.replace('t.jpg', '.jpg')
 
       listings.push({
-        title: title,
+        label: label,
         price: price,
         fuel: fuel,
         year: dateYear,
@@ -52,11 +52,11 @@ async function scrapeDataForYearRange(makeId, modellId, design, year, doorCount)
   }
 }
 
-async function scrapeAllData(makeId, modellId, design, startYear, endYear, doorCount) {
+async function scrapeAllData(make, model, design, startYear, endYear, doorCount) {
   const allListings = [];
 
   for (let year = startYear; year <= endYear; year++) {
-    const listings = await scrapeDataForYearRange(makeId, modellId, design, year, doorCount);
+    const listings = await scrapeDataForYearRange(make, model, design, year, doorCount);
     allListings.push(...listings);
   }
 
