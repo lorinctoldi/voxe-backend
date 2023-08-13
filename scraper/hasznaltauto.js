@@ -54,6 +54,7 @@ async function scrapeDataForYearRange(make, model, design, year, doorCount) {
 }
 
 async function scrapeAllData(make, model, design, startYear, endYear, doorCount) {
+  console.log('ez is működik')
   const allListings = [];
 
   for (let year = (startYear || 1900); year <= (endYear || 2023); year++) {

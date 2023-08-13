@@ -13,6 +13,7 @@ router.post('/scrape/hasznaltauto', async (req, res) => {
   const { make, model, design, startYear, endYear, doorCount } = req.body;
   if(startYear > endYear) return res.json('Starting year is higher than ending year!')
   if(!make || !model) return res.json('No make or no model provided!');
+  console.log('A kérelem működik')
 
   try {
     const scrapedData = await hasznaltauto_scraper.scrapeAllData(make, model, design, startYear || 1900, endYear || 2023, doorCount);
