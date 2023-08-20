@@ -11,7 +11,7 @@ function getSum(data) {
 
   for(year in minValue) {
     // dataByYears[year] = { min: minValue[year], max: maxValue[year], med: medValue[year], avg: avgValue[year], div: divValue[year] }
-    dataByYears[year] = { min: minValue[year], max: maxValue[year] }
+    dataByYears[year] = { min: minValue[year], max: maxValue[year], avg: avgValue[year] }
   }
   
   return dataByYears

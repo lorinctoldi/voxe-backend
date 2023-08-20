@@ -1,33 +1,133 @@
 const sum = require('../math/sum')
 const mobile = require('../scraper/mobile')
 const hasznaltauto = require('../scraper/hasznaltauto')
-const fs =  require('fs')
 
-function normalize(items, reverseSummary, summary) {
-  console.log(reverseSummary)
-  for(const item of items) {
-    const year = String(item.year)
-    const normalized_less_than_minimum_price = item.price  < (reverseSummary.price.min[year] - (reverseSummary.price.min[year] * 0.08)) ? 0.25 : 0
-    const normalized_odometer = normalized_less_than_minimum_price ? 0 : (item.odometer - summary.odometer.min[year]) / (summary.odometer.max[year] - summary.odometer.min[year])
-    const normalized_horsepower = (item.horse_power - summary.horsepower.min[year]) / (summary.horsepower.max[year] - summary.horsepower.min[year])
-    const reverse_normalized_price = (item.price - reverseSummary.price.min[year]) / (reverseSummary.price.max[year] - reverseSummary.price.min[year])
-    const reverse_normalized_odometer = (item.odometer - reverseSummary.odometer.min[year]) / (reverseSummary.odometer.max[year] - reverseSummary.odometer.min[year])
-    const reverse_normalized_horsepower = (item.horse_power - reverseSummary.horsepower.min[year]) / (reverseSummary.horsepower.max[year] - reverseSummary.horsepower.min[year])
-    // const normalized_year = (item.year - Object.keys(summary.price.min)[0]) / (Object.keys(summary.price.min).at(-1) - Object.keys(summary.price.min)[0])
-    console.log(normalized_less_than_minimum_price, normalized_odometer, normalized_horsepower, reverse_normalized_odometer, reverse_normalized_horsepower, reverse_normalized_price)
-    item.score = normalized_less_than_minimum_price + ((1- reverse_normalized_price) * 0.25) + ((1-normalized_odometer) * 0.0625) + ((1-reverse_normalized_odometer) * 0.0625) +(normalized_horsepower * 0.0625) + (reverse_normalized_horsepower * 0.0625)
+function getScore (data, sum, crossSum) {
+  for(const entry of data) {
+    const years = Object.keys(sum.price.min)
+    const price = entry.price
+    const odometer = entry.odometer
+    const horsepower = entry.horse_power
+    const cross_years = Object.keys(crossSum.price.min)
+
+
+    // minimum (cross)
+    const lessThenMinimum = []
+
+    for(let year of cross_years) {
+      if(year > entry.year) break;
+      if(price < crossSum.price.min[year]) {
+        lessThenMinimum.push(parseFloat(
+          (crossSum.price.min[year] - price) * (1 + ((entry.year - year) * 0.10)) / 100_000 ) - lessThenMinimum.reduce((a,c) => a + c, 0)) 
+      }
+    }
+
+    let ltm = lessThenMinimum.reduce((accumulator, currentValue) => accumulator + currentValue, 0)
+
+
+
+    // avarage price
+    const avarage = [];
+
+    for(let year of years) {
+      if(year > entry.year) break;
+      avarage.push(
+        parseFloat(
+          (((sum.price.avg[year] - price) * (1 + ((entry.year - year) * 0.07)))) / 100_000 - avarage.reduce((a,c) => a + c, 0))
+      )
+    }
+
+    let avg = avarage.reduce((accumulator, currentValue) => accumulator + currentValue, 0)
+
+    // cross avarage price
+    const cAvarage = []
+    for(let year of cross_years) {
+      if(year > entry.year) break;
+      cAvarage.push(
+        parseFloat(
+          (((crossSum.price.avg[year] - price) * (1 + ((entry.year - year) * 0.07)))) / 100_000 - cAvarage.reduce((a,c) => a + c, 0))
+      )
+    }
+
+    let c_avg = cAvarage.reduce((accumulator, currentValue) => accumulator + currentValue, 0)
+
+
+    // year score
+    let year_score = Math.abs(years[0] - (entry.year + 1)) 
+
+
+    // avarage odometer
+    const odometerAvarage = [];
+
+    for(let year of years) {
+      if(year > entry.year) break;
+      odometerAvarage.push(
+        parseFloat(
+          (((sum.odometer.avg[year] - odometer) * (1 + ((entry.year - year) * 0.07)))) / 10_000 - odometerAvarage.reduce((a,c) => a + c, 0))
+      )
+    }
+
+    let odm = odometerAvarage.reduce((accumulator, currentValue) => accumulator + currentValue, 0)
+
+
+    // cross avarage odometer
+    const cOdometerAvarage = []
+
+    for(let year of cross_years) {
+      if(year > entry.year) break;
+      cOdometerAvarage.push(
+        parseFloat(
+          (((crossSum.odometer.avg[year] - odometer) * (1 + ((entry.year - year) * 0.07)))) / 10_000 - cOdometerAvarage.reduce((a,c) => a + c, 0))
+      )
+    }
+
+    let codm = cOdometerAvarage.reduce((accumulator, currentValue) => accumulator + currentValue, 0)
+
+
+    // avarage horse power
+    const horse = [];
+
+    for(let year of years) {
+      horse.push(
+          (horsepower - sum.horsepower.avg[year]) / 100 - horse.reduce((a,c) => a + c, 0)
+      )
+    }
+
+    let hrs = horse.reduce((accumulator, currentValue) => accumulator + currentValue, 0)
+
+
+    // cross avarage horse 
+    const chorse = [];
+
+    for(let year of years) {
+      chorse.push(
+          (horsepower - sum.horsepower.avg[year]) / 100 - chorse.reduce((a,c) => a + c, 0)
+      )
+    }
+
+    let chrs = chorse.reduce((accumulator, currentValue) => accumulator + currentValue, 0)
+
+    
+    const score = ((ltm)||0) + ((year_score * 20)||0) + ((odm * 10)||0) + ((codm * 10)||0) + ((hrs * 4)||0) + ((chrs * 4)||0)
+    entry.score = score
+    entry.odm = odm
+    entry.codm = codm
+    entry.year_score = year_score
+    entry.isLessThanMinimum = entry.price <= crossSum.price.min[entry.year]
+    entry.lessThenMinimum = ltm > 0 ? parseInt(ltm * 100_000).toLocaleString('en-US').replace(/,/g, '.') : null
   }
 
-  return items
+  return data.sort((a,b) => b.score - a.score)
 }
+
 
 async function getScoredItems(mobileMake, mobileModel, hasznaltautoMake, hasznaltautoModel, startYear, endYear) {
   const mobileItems = await mobile.scrapeAllData(mobileMake, mobileModel, startYear, endYear)
   const hasznaltautoItems = await hasznaltauto.scrapeAllData(hasznaltautoMake, hasznaltautoModel, undefined, startYear, endYear)
   const mobile_summary = sum.getSum(mobileItems)
   const hasznaltauto_summary = sum.getSum(hasznaltautoItems)
-  const mobileScored = normalize(mobileItems, hasznaltauto_summary, mobile_summary).sort((a,b) => b.score - a.score).filter(o => o.score !== null)
-  const hasznaltautoScored = normalize(hasznaltautoItems, mobile_summary, hasznaltauto_summary).sort((a,b) => b.score - a.score).filter(o => o.score !== null)
+  const mobileScored = getScore(mobileItems, mobile_summary, hasznaltauto_summary)
+  const hasznaltautoScored = getScore(hasznaltautoItems, hasznaltauto_summary, mobile_summary)
   return {mobile: mobileScored, hasznaltautoScored: hasznaltautoScored}
 }
 

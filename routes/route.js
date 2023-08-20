@@ -63,7 +63,7 @@ router.post('/yearly-summary/mobile', async(req, res) => {
   if(!make || !model) return res.json('No make or no model provided!');
   if(startYear > endYear) return res.json('Starting year is higher than ending year!')
   try {
-    const scrapedData = await mobile_scraper.scrapeAllData(make, model, design, startYear, endYear);
+    const scrapedData = await mobile_scraper.scrapeAllData(make, model, startYear, endYear);
     const sumData = sum.getSum(scrapedData)
     res.json(sumData);
   } catch (error) {
