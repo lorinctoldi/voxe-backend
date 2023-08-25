@@ -10,7 +10,10 @@ async function scrapeDataByPage(make, model, startYear, endYear, pageNum) {
   const conversionRate = await conversion.getConversionRate();
   const array = [];
   const url = `https://mobile.de/consumer/api/search/srp/items?page=${pageNum}&url=%2Fauto%2Fsearch.html%3Fdam%3D0%26${(startYear || endYear) ? `fr%3D${(startYear || 1900)}%253A${(endYear || 2023)}%26` : ''}ms%3D${make || 1900}%253B${model || 22}%253B%253B%26od%3Dup%26s%3DCar%26sb%3Dp%26vc%3DCar%26ref%3DsrpHead`;
-  const res = await axios.get(url);
+  const res = await axios.get(url, 
+    { headers: {
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3',
+    }});
 
   res.data.items.filter(item => item.title).forEach(item => {
     let attributes = item.attributes
