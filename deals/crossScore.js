@@ -15,14 +15,14 @@ function getScore (data, sum, crossSum) {
     const lessThenMinimum = []
 
     for(let year of cross_years) {
-      if(year > entry.year) break;
-      if(price < crossSum.price.min[year]) {
-        lessThenMinimum.push(parseFloat(
-          (crossSum.price.min[year] - price) * (1 + ((entry.year - year) * 0.10)) / 100_000 ) - lessThenMinimum.reduce((a,c) => a + c, 0)) 
-      }
+      if(year > 2023) break;
+          lessThenMinimum.push(
+            parseFloat((crossSum.price.min[year] - price) * (1 + ((entry.year - year) * 0.10)) / 100_000)
+          )
     }
 
-    let ltm = lessThenMinimum.reduce((accumulator, currentValue) => accumulator + currentValue, 0)
+
+    let ltm = lessThenMinimum.reduce((accumulator, currentValue) => accumulator + currentValue, 0) / lessThenMinimum.length
 
 
 
@@ -108,13 +108,10 @@ function getScore (data, sum, crossSum) {
     let chrs = chorse.reduce((accumulator, currentValue) => accumulator + currentValue, 0)
 
     
-    const score = ((ltm)||0) + ((year_score * 20)||0) + ((odm * 10)||0) + ((codm * 10)||0) + ((hrs * 4)||0) + ((chrs * 4)||0)
+    const score = ((ltm * 10)||0) + ((year_score * 300)||0) + ((odm * 10)||0) + ((codm * 10)||0) + ((hrs * 4)||0) + ((chrs * 4)||0)
     entry.score = score
-    entry.odm = odm
-    entry.codm = codm
-    entry.year_score = year_score
     entry.isLessThanMinimum = entry.price <= crossSum.price.min[entry.year]
-    entry.lessThenMinimum = ltm > 0 ? parseInt(ltm * 100_000).toLocaleString('en-US').replace(/,/g, '.') : null
+    entry.lessThenMinimum = ltm > 0 ? parseInt(ltm * 100_000) : null
   }
 
   return data.sort((a,b) => b.score - a.score)
@@ -123,12 +120,13 @@ function getScore (data, sum, crossSum) {
 
 async function getScoredItems(mobileMake, mobileModel, hasznaltautoMake, hasznaltautoModel, startYear, endYear) {
   const mobileItems = await mobile.scrapeAllData(mobileMake, mobileModel, startYear, endYear)
-  const hasznaltautoItems = await hasznaltauto.scrapeAllData(hasznaltautoMake, hasznaltautoModel, undefined, startYear, endYear)
+  const hasznaltautoItems = await hasznaltauto.scrapeAllData(hasznaltautoMake, hasznaltautoModel, undefined, startYear || 2000, endYear || 2023)
   const mobile_summary = sum.getSum(mobileItems)
   const hasznaltauto_summary = sum.getSum(hasznaltautoItems)
   const mobileScored = getScore(mobileItems, mobile_summary, hasznaltauto_summary)
   const hasznaltautoScored = getScore(hasznaltautoItems, hasznaltauto_summary, mobile_summary)
-  return {mobile: mobileScored, hasznaltautoScored: hasznaltautoScored}
+  const flat = [...mobileScored, ...hasznaltautoScored].sort((a,b) => b.score - a.score).filter(entry => entry.year < 2024 && entry.score > 0)
+  return flat
 }
 
 module.exports = {

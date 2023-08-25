@@ -2,7 +2,7 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 
 async function scrapeDataForYearRange(make, model, design, year, doorCount) {
-  console.log(year)
+  console.log('Currently scraping cars from ', year)
   try {
     const response = await axios.post('https://www.hasznaltauto.hu/egyszeru/szemelyauto', {
       marka_id: make,
@@ -11,7 +11,8 @@ async function scrapeDataForYearRange(make, model, design, year, doorCount) {
       ajtok_szama: doorCount,
       evjarat_min: year,
       evjarat_max: year,
-      kivitel: design
+      kivitel: design,
+      allapot: [1,2,3,4,5]
     });
 
     const $ = cheerio.load(response.data);
@@ -32,14 +33,14 @@ async function scrapeDataForYearRange(make, model, design, year, doorCount) {
 
       listings.push({
         label: label,
-        price: price,
+        price: parseInt(price),
         fuel: fuel,
-        year: dateYear,
-        month: dateMonth,
+        year: parseInt(dateYear),
+        month: parseInt(dateMonth),
         // displacement: displacement,
-        power_output: power_output,
-        horse_power: horse_power,
-        odometer: odometer,
+        // power_output: parseInt(power_output),
+        horse_power: parseInt(horse_power),
+        odometer: parseInt(odometer),
         image: imageSmall,
         link: link
         // image: image
@@ -54,7 +55,7 @@ async function scrapeDataForYearRange(make, model, design, year, doorCount) {
 }
 
 async function scrapeAllData(make, model, design, startYear, endYear, doorCount) {
-  console.log('ez is működik')
+  console.log('Scraping hasznaltauto')
   const allListings = [];
 
   for (let year = (startYear || 1900); year <= (endYear || 2023); year++) {

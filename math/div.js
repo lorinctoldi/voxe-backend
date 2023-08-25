@@ -56,7 +56,6 @@ function getDiv(data) {
   }
   
   for(const year in divisionHorsePowerByYear) {
-    console.log(divisionHorsePowerByYear[year])
     divisionHorsePowerByYear[year] = Math.round(Math.sqrt(divisionHorsePowerByYear[year].horsepower / divisionHorsePowerByYear[year].count))
   }
 

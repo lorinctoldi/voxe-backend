@@ -13,7 +13,6 @@ router.post('/scrape/hasznaltauto', async (req, res) => {
   const { make, model, design, startYear, endYear, doorCount } = req.body;
   if(startYear > endYear) return res.json('Starting year is higher than ending year!')
   if(!make || !model) return res.json('No make or no model provided!');
-  console.log('A kérelem működik')
 
   try {
     const scrapedData = await hasznaltauto_scraper.scrapeAllData(make, model, design, startYear || 1900, endYear || 2023, doorCount);
@@ -32,7 +31,7 @@ router.post('/scrape/mobile', async (req, res) => {
   if(startYear > endYear) return res.json('Starting year is higher than ending year!')
 
   try {
-    const scrapedData = await mobile_scraper.scrapeAllData(make, model, design, startYear, endYear);
+    const scrapedData = await mobile_scraper.scrapeAllData(make, model, startYear, endYear);
     res.json(scrapedData);
   } catch (error) {
     console.error('Error during scraping:', error);
@@ -75,7 +74,6 @@ router.post('/yearly-summary/mobile', async(req, res) => {
 router.post('/reverse-score', async(req, res) => {
   if (Object.keys(req.body).length === 0) return res.json('No data in request!');
   const { mobileMake, mobileModel, hasznaltautoMake, hasznaltautoModel, startYear, endYear} = req.body
-
   if(!mobileMake || !mobileModel || !hasznaltautoMake || !hasznaltautoMake) return res.json('No make or no model provided!');
   if(startYear > endYear) return res.json('Starting year is higher than ending year!')
 
